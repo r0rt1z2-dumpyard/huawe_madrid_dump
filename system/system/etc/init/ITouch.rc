@@ -1,0 +1,4 @@
+service ITouchservice /system/bin/ITouchservice
+    class main
+    user system
+    group system

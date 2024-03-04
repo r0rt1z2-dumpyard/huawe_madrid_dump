@@ -1,0 +1,84 @@
+service kmsglogcat /sbin/xlogcat-early -b kmsglogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+# inputlogcat is triggered by projectmenu or setprop
+service inputlogcat /system/bin/xlogcat -b inputlogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service chargelogcat /sbin/xlogcat-early -b chargelogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service sleeplogcat /system/bin/xlogcat -b sleeplogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service xlogctl_service /sbin/xlogcat-early -t 0
+    class late_start
+    user root
+    group system media_rw
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogcat_service /sbin/xlogcat-early -t 1
+    class late_start
+    user root
+    group system media_rw
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogview_service /sbin/xlogcat-early -t 2
+    class late_start
+    user root
+    group system media_rw
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+on property:persist.sys.huawei.debug.on=*
+    start xlogcat_service
+
+on property:vendor.MB.running=*
+    start xlogcat_service
+
+on property:vendor.MB.sublog=*
+    start xlogcat_service
+
+on property:sys.boot_completed=1
+    start restart_xlogcat_service
+
+service restart_xlogcat_service  /system/bin/sh /system/etc/logctl_service.sh
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service faclog_service /system/bin/factory_log_service -m 1
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:faclogservice:s0
+

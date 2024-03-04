@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<config>
+  <devicePath name="/data/log" platform="HisiQcomMtk">
+    <deviceLabel name="Common">
+      <HisiBetaNormal value="660602880"/>
+      <QcomBetaNormal value="660602880"/>
+      <MtkBetaNormal value="975175680"/>
+      <pathNode name="android_logs">
+        <HisiBetaNormal value="152043520"/>
+        <QcomBetaNormal value="152043520"/>
+        <MtkBetaNormal value="152043520"/>
+      </pathNode>
+      <pathNode name="input-log">
+        <HisiBetaNormal value="6553600"/>
+        <QcomBetaNormal value="6553600"/>
+        <MtkBetaNormal value="6553600"/>
+      </pathNode>
+      <pathNode name="sleeplog">
+        <HisiBetaNormal value="111673344"/>
+        <QcomBetaNormal value="111673344"/>
+        <MtkBetaNormal value="111673344"/>
+      </pathNode>
+      <pathNode name="charge-log">
+        <HisiBetaNormal value="26214400"/>
+        <QcomBetaNormal value="26214400"/>
+        <MtkBetaNormal value="26214400"/>
+      </pathNode>
+      <pathNode name="mmi">
+        <HisiBetaNormal value="10485760"/>
+        <QcomBetaNormal value="10485760"/>
+        <MtkBetaNormal value="10485760"/>
+      </pathNode>
+      <pathNode name="rt">
+        <HisiBetaNormal value="314572800"/>
+        <QcomBetaNormal value="314572800"/>
+        <MtkBetaNormal value="314572800"/>
+      </pathNode>
+      <pathNode name="fac_log">
+        <HisiBetaNormal value="16"/>
+        <QcomBetaNormal value="16"/>
+        <MtkBetaNormal value="16"/>
+      </pathNode>
+      <pathNode name="mtklog">
+        <MtkBetaNormal value="314572800"/>
+      </pathNode>
+      <pathNode name="hilogs">
+        <HisiBetaNormal value="31457280"/>
+        <QcomBetaNormal value="31457280"/>
+        <MtkBetaNormal value="31457280"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="PowerThermal">
+      <HisiBetaNormal value="251658240"/>
+      <HisiCommercialNormal value="167772160"/>
+      <QcomBetaNormal value="251658240"/>
+      <QcomCommercialNormal value="167772160"/>
+      <MtkBetaNormal value="251658240"/>
+      <MtkCommercialNormal value="167772160"/>
+      <pathNode name="dubai">
+        <HisiBetaNormal value="220200960"/>
+        <HisiCommercialNormal value="167772160"/>
+        <QcomBetaNormal value="220200960"/>
+        <QcomCommercialNormal value="167772160"/>
+        <MtkBetaNormal value="220200960"/>
+        <MtkCommercialNormal value="167772160"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="DMD">
+      <HisiBetaNormal value="1300234240"/>
+      <HisiCommercialNormal value="26214400"/>
+      <QcomBetaNormal value="1315962880"/>
+      <QcomCommercialNormal value="26214400"/>
+      <MtkBetaNormal value="209715200"/>
+      <MtkCommercialNormal value="26214400"/>
+      <pathNode name="charge_monitor">
+        <HisiBetaNormal value="83886080"/>
+        <QcomBetaNormal value="83886080"/>
+        <MtkBetaNormal value="83886080"/>
+      </pathNode>
+      <pathNode name="dmd_log">
+        <HisiBetaNormal value="2097152"/>
+        <QcomBetaNormal value="2097152"/>
+        <MtkBetaNormal value="2097152"/>
+      </pathNode>
+      <pathNode name="sec_log">
+        <QcomBetaNormal value="11534336"/>
+      </pathNode>
+      <pathNode name="codec_dsp">
+        <HisiBetaNormal value="943718400"/>
+        <HisiCommercialNormal value="20971520"/>
+        <QcomBetaNormal value="943718400"/>
+        <QcomCommercialNormal value="20971520"/>
+      </pathNode>
+      <pathNode name="sensorhub-log">
+        <HisiBetaNormal value="105906176"/>
+        <QcomBetaNormal value="105906176"/>
+      </pathNode>
+      <pathNode name="selinux_dmd">
+        <HisiBetaNormal value="517120"/>
+        <QcomBetaNormal value="517120"/>
+        <MtkBetaNormal value="517120"/>
+      </pathNode>
+      <pathNode name="hmf_logs">
+        <HisiBetaNormal value="20971520"/>
+        <QcomBetaNormal value="20971520"/>
+        <MtkBetaNormal value="20971520"/>
+      </pathNode>
+      <pathNode name="tee">
+        <HisiBetaNormal value="153600"/>
+        <HisiCommercialNormal value="153600"/>
+      </pathNode>
+      <pathNode name="thermal">
+        <HisiBetaNormal value="616448"/>
+        <HisiCommercialNormal value="126976"/>
+        <QcomBetaNormal value="616448"/>
+        <QcomCommercialNormal value="126976"/>
+        <MtkBetaNormal value="616448"/>
+        <MtkCommercialNormal value="126976"/>
+      </pathNode>
+      <pathNode name="hwouc">
+        <HisiCommercialNormal value="209715.2"/>
+        <QcomCommercialNormal value="209715.2"/>
+        <MtkCommercialNormal value="209715.2"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="Reliability">
+      <HisiBetaNormal value="57671680"/>
+      <HisiCommercialNormal value="15728640"/>
+      <QcomBetaNormal value="4351590400"/>
+      <QcomCommercialNormal value="15728640"/>
+      <MtkBetaNormal value="109051904"/>
+      <MtkCommercialNormal value="47185920"/>
+      <pathNode name="dbox">
+        <HisiBetaNormal value="33554.432"/>
+        <HisiCommercialNormal value="33554.432"/>
+        <QcomBetaNormal value="33554.432"/>
+        <QcomCommercialNormal value="33554.432"/>
+        <MtkBetaNormal value="33554.432"/>
+        <MtkCommercialNormal value="33554.432"/>
+      </pathNode>
+      <pathNode name="reliability">
+        <HisiBetaNormal value="48299507.712"/>
+        <HisiCommercialNormal value="7897874.432"/>
+        <QcomBetaNormal value="48299507.712"/>
+        <QcomCommercialNormal value="7897874.432"/>
+        <MtkBetaNormal value="48299507.712"/>
+        <MtkCommercialNormal value="7897874.432"/>
+      </pathNode>
+      <pathNode name="sanitizer">
+        <HisiBetaNormal value="16777.216"/>
+        <QcomBetaNormal value="16777.216"/>
+        <MtkBetaNormal value="16777.216"/>
+      </pathNode>
+      <pathNode name="ramdump">
+        <QcomBetaNormal value="4294967296"/>
+      </pathNode>
+      <pathNode name="logcache">
+        <HisiBetaNormal value="5242880"/>
+        <HisiCommercialNormal value="5242880"/>
+        <QcomBetaNormal value="5242880"/>
+        <QcomCommercialNormal value="5242880"/>
+        <MtkBetaNormal value="5242880"/>
+        <MtkCommercialNormal value="5242880"/>
+      </pathNode>
+      <pathNode name="modem_crash">
+        <QcomBetaNormal value="20480"/>
+        <QcomCommercialNormal value="20480"/>
+      </pathNode>
+      <pathNode name="press10">
+        <HisiBetaNormal value="524288"/>
+        <HisiCommercialNormal value="524288"/>
+        <QcomBetaNormal value="524288"/>
+        <QcomCommercialNormal value="524288"/>
+        <MtkBetaNormal value="524288"/>
+        <MtkCommercialNormal value="524288"/>
+      </pathNode>
+      <pathNode name="appeye_anr">
+        <HisiBetaNormal value="10240"/>
+        <QcomBetaNormal value="10240"/>
+        <MtkBetaNormal value="10240"/>
+      </pathNode>
+      <pathNode name="eRecovery.db">
+        <HisiBetaNormal value="1048576"/>
+        <HisiCommercialNormal value="1048576"/>
+        <QcomBetaNormal value="1048576"/>
+        <QcomCommercialNormal value="1048576"/>
+        <MtkBetaNormal value="1048576"/>
+        <MtkCommercialNormal value="1048576"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="CHR">
+      <HisiBetaNormal value="1751121920"/>
+      <HisiCommercialNormal value="2097152"/>
+      <QcomBetaNormal value="1258291200"/>
+      <QcomCommercialNormal value="1048576"/>
+      <MtkBetaNormal value="1751121920"/>
+      <MtkCommercialNormal value="2097152"/>
+      <pathNode name="bt">
+        <HisiBetaNormal value="104857600"/>
+        <QcomBetaNormal value="104857600"/>
+        <MtkBetaNormal value="104857600"/>
+      </pathNode>
+      <pathNode name="tcpdump">
+        <HisiBetaNormal value="5242880"/>
+        <QcomBetaNormal value="5242880"/>
+        <MtkBetaNormal value="5242880"/>
+      </pathNode>
+      <pathNode name="higeo">
+        <HisiBetaNormal value="89128960"/>
+        <QcomBetaNormal value="89128960"/>
+        <MtkBetaNormal value="89128960"/>
+      </pathNode>
+      <pathNode name="maskFiles">
+        <QcomBetaNormal value="40960"/>
+        <QcomCommercialNormal value="40960"/>
+        <MtkBetaNormal value="40960"/>
+        <MtkCommercialNormal value="40960"/>
+      </pathNode>
+      <pathNode name="usingMaskFile">
+        <QcomBetaNormal value="10240"/>
+        <QcomCommercialNormal value="10240"/>
+        <MtkBetaNormal value="10240"/>
+        <MtkCommercialNormal value="10240"/>
+      </pathNode>
+      <pathNode name="modemConfig">
+        <HisiBetaNormal value="1048576"/>
+        <HisiCommercialNormal value="1048576"/>
+        <MtkBetaNormal value="1048576"/>
+        <MtkCommercialNormal value="1048576"/>
+      </pathNode>
+      <pathNode name="chr">
+        <HisiBetaNormal value="10240"/>
+        <HisiCommercialNormal value="10240"/>
+        <MtkBetaNormal value="10240"/>
+        <MtkCommercialNormal value="10240"/>
+      </pathNode>
+      <pathNode name="modem">
+        <MtkBetaNormal value="1258291200"/>
+      </pathNode>
+      <pathNode name="wifi">
+        <MtkBetaNormal value="77594624"/>
+        <MtkCommercialNormal value="77594624"/>
+      </pathNode>
+      <pathNode name="gps">
+        <MtkBetaNormal value="125829120"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="Performance">
+      <HisiBetaNormal value="209715200"/>
+      <HisiCommercialNormal value="1048576"/>
+      <QcomBetaNormal value="209715200"/>
+      <QcomCommercialNormal value="1048576"/>
+      <MtkBetaNormal value="209715200"/>
+      <MtkCommercialNormal value="1048576"/>
+      <pathNode name="jank">
+        <HisiBetaNormal value="201326592"/>
+        <HisiCommercialNormal value="41943.04"/>
+        <QcomBetaNormal value="201326592"/>
+        <QcomCommercialNormal value="41943.04"/>
+        <MtkBetaNormal value="201326592"/>
+        <MtkCommercialNormal value="41943.04"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="LogEngine">
+      <HisiBetaNormal value="5525995520"/>
+      <HisiCommercialNormal value="1226833920"/>
+      <QcomBetaNormal value="5525995520"/>
+      <QcomCommercialNormal value="1226833920"/>
+      <MtkBetaNormal value="3376414720"/>
+      <MtkCommercialNormal value="1226833920"/>
+      <pathNode name="UserViewer">
+        <HisiBetaNormal value="377487360"/>
+        <HisiCommercialNormal value="377487360"/>
+        <QcomBetaNormal value="377487360"/>
+        <QcomCommercialNormal value="377487360"/>
+        <MtkBetaNormal value="377487360"/>
+        <MtkCommercialNormal value="377487360"/>
+      </pathNode>
+      <pathNode name="LogService">
+        <HisiBetaNormal value="4294967296"/>
+        <QcomBetaNormal value="4294967296"/>
+        <MtkBetaNormal value="2147483648"/>
+      </pathNode>
+      <pathNode name="remote_debug">
+        <HisiBetaNormal value="629145600"/>
+        <HisiCommercialNormal value="629145600"/>
+        <QcomBetaNormal value="629145600"/>
+        <QcomCommercialNormal value="629145600"/>
+        <MtkBetaNormal value="629145600"/>
+        <MtkCommercialNormal value="629145600"/>
+      </pathNode>
+      <pathNode name="hiview_dubai">
+        <HisiBetaNormal value="104857600"/>
+        <HisiCommercialNormal value="104857600"/>
+        <QcomBetaNormal value="104857600"/>
+        <QcomCommercialNormal value="104857600"/>
+        <MtkBetaNormal value="104857600"/>
+        <MtkCommercialNormal value="104857600"/>
+      </pathNode>
+      <pathNode name="log.db">
+        <HisiBetaNormal value="104857600"/>
+        <HisiCommercialNormal value="104857600"/>
+        <QcomBetaNormal value="104857600"/>
+        <QcomCommercialNormal value="104857600"/>
+        <MtkBetaNormal value="104857600"/>
+        <MtkCommercialNormal value="104857600"/>
+      </pathNode>
+      <pathNode name="DP_uuid">
+        <HisiBetaNormal value="1024"/>
+        <HisiCommercialNormal value="1024"/>
+        <QcomBetaNormal value="1024"/>
+        <QcomCommercialNormal value="1024"/>
+        <MtkBetaNormal value="1024"/>
+        <MtkCommercialNormal value="1024"/>
+      </pathNode>
+      <pathNode name="perm-rec">
+        <HisiBetaNormal value="6295552"/>
+        <QcomBetaNormal value="6295552"/>
+        <MtkBetaNormal value="6295552"/>
+      </pathNode>
+    </deviceLabel>
+  </devicePath>
+  <devicePath name="/log" platform="HisiQcomMtk">
+    <deviceLabel name="DMD">
+      <HisiBetaNormal value="6291456"/>
+      <HisiBetaSimplify value="6291456"/>
+      <HisiCommercialNormal value="8388608"/>
+      <HisiCommercialSimplify value="8388608"/>
+      <QcomBetaNormal value="6291456"/>
+      <QcomBetaSimplify value="6291456"/>
+      <QcomCommercialNormal value="8388608"/>
+      <QcomCommercialSimplify value="8388608"/>
+      <MtkBetaNormal value="6291456"/>
+      <MtkBetaSimplify value="6291456"/>
+      <MtkCommercialNormal value="7340032"/>
+      <MtkCommercialSimplify value="7340032"/>
+      <pathNode name="fingerprint">
+        <HisiBetaNormal value="139264"/>
+        <HisiBetaSimplify value="139264"/>
+        <HisiCommercialNormal value="139264"/>
+        <HisiCommercialSimplify value="139264"/>
+        <QcomBetaNormal value="139264"/>
+        <QcomBetaSimplify value="139264"/>
+        <QcomCommercialNormal value="139264"/>
+        <QcomCommercialSimplify value="139264"/>
+        <MtkBetaNormal value="139264"/>
+        <MtkBetaSimplify value="139264"/>
+        <MtkCommercialNormal value="139264"/>
+        <MtkCommercialSimplify value="139264"/>
+      </pathNode>
+      <pathNode name="dmd_log">
+        <HisiCommercialNormal value="528384"/>
+        <HisiCommercialSimplify value="528384"/>
+        <QcomCommercialNormal value="528384"/>
+        <QcomCommercialSimplify value="528384"/>
+        <MtkCommercialNormal value="528384"/>
+        <MtkCommercialSimplify value="528384"/>
+      </pathNode>
+      <pathNode name="recovery">
+        <HisiBetaNormal value="5242880"/>
+        <HisiBetaSimplify value="5242880"/>
+        <HisiCommercialNormal value="5242880"/>
+        <HisiCommercialSimplify value="5242880"/>
+        <QcomBetaNormal value="5242880"/>
+        <QcomBetaSimplify value="5242880"/>
+        <QcomCommercialNormal value="5242880"/>
+        <QcomCommercialSimplify value="5242880"/>
+        <MtkBetaNormal value="5242880"/>
+        <MtkBetaSimplify value="5242880"/>
+        <MtkCommercialNormal value="5242880"/>
+        <MtkCommercialSimplify value="5242880"/>
+      </pathNode>
+      <pathNode name="charge-monitor">
+        <HisiCommercialNormal value="1048576"/>
+        <HisiCommercialSimplify value="1048576"/>
+        <QcomCommercialNormal value="1048576"/>
+        <QcomCommercialSimplify value="1048576"/>
+        <MtkCommercialNormal value="1048576"/>
+        <MtkCommercialSimplify value="1048576"/>
+      </pathNode>
+      <pathNode name="isc">
+        <HisiBetaNormal value="5120"/>
+        <HisiBetaSimplify value="5120"/>
+        <HisiCommercialNormal value="5120"/>
+        <HisiCommercialSimplify value="5120"/>
+      </pathNode>
+      <pathNode name="soh">
+        <HisiBetaNormal value="528384"/>
+        <HisiBetaSimplify value="528384"/>
+        <HisiCommercialNormal value="528384"/>
+        <HisiCommercialSimplify value="528384"/>
+        <QcomBetaNormal value="528384"/>
+        <QcomBetaSimplify value="528384"/>
+        <QcomCommercialNormal value="528384"/>
+        <QcomCommercialSimplify value="528384"/>
+      </pathNode>
+      <pathNode name="battery">
+        <HisiBetaNormal value="12888"/>
+        <HisiBetaSimplify value="12888"/>
+        <HisiCommercialNormal value="12888"/>
+        <HisiCommercialSimplify value="12888"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="Reliability">
+      <HisiBetaNormal value="5242880"/>
+      <HisiBetaSimplify value="5242880"/>
+      <HisiCommercialNormal value="5242880"/>
+      <HisiCommercialSimplify value="5242880"/>
+      <QcomBetaNormal value="7340032"/>
+      <QcomBetaSimplify value="7340032"/>
+      <QcomCommercialNormal value="6291456"/>
+      <QcomCommercialSimplify value="6291456"/>
+      <MtkBetaNormal value="5242880"/>
+      <MtkBetaSimplify value="5242880"/>
+      <MtkCommercialNormal value="5242880"/>
+      <MtkCommercialSimplify value="5242880"/>
+      <pathNode name="reliability">
+        <HisiBetaNormal value="5242880"/>
+        <HisiBetaSimplify value="5242880"/>
+        <HisiCommercialNormal value="5242880"/>
+        <HisiCommercialSimplify value="5242880"/>
+        <QcomBetaNormal value="5242880"/>
+        <QcomBetaSimplify value="5242880"/>
+        <QcomCommercialNormal value="5242880"/>
+        <QcomCommercialSimplify value="5242880"/>
+        <MtkBetaNormal value="5242880"/>
+        <MtkBetaSimplify value="5242880"/>
+        <MtkCommercialNormal value="5242880"/>
+        <MtkCommercialSimplify value="5242880"/>
+      </pathNode>
+      <pathNode name="beta_srecorder">
+        <QcomBetaNormal value="524288"/>
+        <QcomBetaSimplify value="524288"/>
+      </pathNode>
+      <pathNode name="tz_dump">
+        <QcomBetaNormal value="8192"/>
+        <QcomBetaSimplify value="8192"/>
+        <QcomCommercialNormal value="8192"/>
+        <QcomCommercialSimplify value="8192"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="CHR">
+      <HisiBetaNormal value="1048576"/>
+      <HisiBetaSimplify value="1048576"/>
+      <HisiCommercialNormal value="1048576"/>
+      <HisiCommercialSimplify value="1048576"/>
+      <QcomBetaNormal value="1048576"/>
+      <QcomBetaSimplify value="1048576"/>
+      <QcomCommercialNormal value="1048576"/>
+      <QcomCommercialSimplify value="1048576"/>
+      <MtkBetaNormal value="1048576"/>
+      <MtkBetaSimplify value="1048576"/>
+      <MtkCommercialNormal value="1048576"/>
+      <MtkCommercialSimplify value="1048576"/>
+      <pathNode name="sim">
+        <HisiBetaNormal value="8292"/>
+        <HisiBetaSimplify value="8292"/>
+        <QcomBetaNormal value="8292"/>
+        <QcomBetaSimplify value="8292"/>
+        <MtkBetaNormal value="8292"/>
+        <MtkBetaSimplify value="8292"/>
+      </pathNode>
+      <pathNode name="gps">
+        <HisiBetaNormal value="12288"/>
+        <HisiBetaSimplify value="12288"/>
+        <HisiCommercialNormal value="12288"/>
+        <HisiCommercialSimplify value="12288"/>
+        <QcomBetaNormal value="12288"/>
+        <QcomBetaSimplify value="12288"/>
+        <QcomCommercialNormal value="12288"/>
+        <QcomCommercialSimplify value="12288"/>
+        <MtkBetaNormal value="12288"/>
+        <MtkBetaSimplify value="12288"/>
+        <MtkCommercialNormal value="12288"/>
+        <MtkCommercialSimplify value="12288"/>
+      </pathNode>
+      <pathNode name="chr">
+        <HisiBetaNormal value="442368"/>
+        <HisiBetaSimplify value="442368"/>
+        <HisiCommercialNormal value="442368"/>
+        <HisiCommercialSimplify value="442368"/>
+        <QcomBetaNormal value="442368"/>
+        <QcomBetaSimplify value="442368"/>
+        <QcomCommercialNormal value="442368"/>
+        <QcomCommercialSimplify value="442368"/>
+        <MtkBetaNormal value="442368"/>
+        <MtkBetaSimplify value="442368"/>
+        <MtkCommercialNormal value="442368"/>
+        <MtkCommercialSimplify value="442368"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="Performance">
+      <HisiBetaNormal value="1048576"/>
+      <HisiBetaSimplify value="1048576"/>
+      <HisiCommercialNormal value="1048576"/>
+      <HisiCommercialSimplify value="1048576"/>
+      <QcomBetaNormal value="1048576"/>
+      <QcomBetaSimplify value="1048576"/>
+      <QcomCommercialNormal value="1048576"/>
+      <QcomCommercialSimplify value="1048576"/>
+      <MtkBetaNormal value="1048576"/>
+      <MtkBetaSimplify value="1048576"/>
+      <MtkCommercialNormal value="1048576"/>
+      <MtkCommercialSimplify value="1048576"/>
+      <pathNode name="jank">
+        <HisiBetaNormal value="1048576"/>
+        <HisiBetaSimplify value="1048576"/>
+        <HisiCommercialNormal value="1048576"/>
+        <HisiCommercialSimplify value="1048576"/>
+        <QcomBetaNormal value="1048576"/>
+        <QcomBetaSimplify value="1048576"/>
+        <QcomCommercialNormal value="1048576"/>
+        <QcomCommercialSimplify value="1048576"/>
+        <MtkBetaNormal value="1048576"/>
+        <MtkBetaSimplify value="1048576"/>
+        <MtkCommercialNormal value="1048576"/>
+        <MtkCommercialSimplify value="1048576"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="LogEngine">
+      <HisiBetaNormal value="6291456"/>
+      <HisiBetaSimplify value="6291456"/>
+      <HisiCommercialNormal value="38797312"/>
+      <HisiCommercialSimplify value="10485760"/>
+      <QcomBetaNormal value="6291456"/>
+      <QcomBetaSimplify value="6291456"/>
+      <QcomCommercialNormal value="38797312"/>
+      <QcomCommercialSimplify value="9437184"/>
+      <MtkBetaNormal value="6291456"/>
+      <MtkBetaSimplify value="6291456"/>
+      <MtkCommercialNormal value="38797312"/>
+      <MtkCommercialSimplify value="9437184"/>
+      <pathNode name="LogService">
+        <HisiCommercialNormal value="33554432"/>
+        <HisiCommercialSimplify value="5242880"/>
+        <QcomCommercialNormal value="33554432"/>
+        <QcomCommercialSimplify value="4194304"/>
+        <MtkCommercialNormal value="33554432"/>
+        <MtkCommercialSimplify value="4194304"/>
+      </pathNode>
+      <pathNode name="hiview">
+        <HisiBetaNormal value="5242880"/>
+        <HisiBetaSimplify value="5242880"/>
+        <HisiCommercialNormal value="5242880"/>
+        <HisiCommercialSimplify value="5242880"/>
+        <QcomBetaNormal value="5242880"/>
+        <QcomBetaSimplify value="5242880"/>
+        <QcomCommercialNormal value="5242880"/>
+        <QcomCommercialSimplify value="5242880"/>
+        <MtkBetaNormal value="5242880"/>
+        <MtkBetaSimplify value="5242880"/>
+        <MtkCommercialNormal value="5242880"/>
+        <MtkCommercialSimplify value="5242880"/>
+      </pathNode>
+      <pathNode name="logsizecheck">
+        <HisiBetaNormal value="14336"/>
+        <HisiBetaSimplify value="14336"/>
+        <QcomBetaNormal value="14336"/>
+        <QcomBetaSimplify value="14336"/>
+        <MtkBetaNormal value="14336"/>
+        <MtkBetaSimplify value="14336"/>
+      </pathNode>
+    </deviceLabel>
+    <deviceLabel name="Storage">
+      <HisiBetaNormal value="2097152"/>
+      <HisiBetaSimplify value="2097152"/>
+      <HisiCommercialNormal value="2097152"/>
+      <HisiCommercialSimplify value="2097152"/>
+      <QcomBetaNormal value="2097152"/>
+      <QcomBetaSimplify value="2097152"/>
+      <QcomCommercialNormal value="2097152"/>
+      <QcomCommercialSimplify value="2097152"/>
+      <MtkBetaNormal value="2097152"/>
+      <MtkBetaSimplify value="2097152"/>
+      <MtkCommercialNormal value="2097152"/>
+      <MtkCommercialSimplify value="2097152"/>
+      <pathNode name="unrmd">
+        <HisiBetaNormal value="266240"/>
+        <HisiBetaSimplify value="266240"/>
+        <HisiCommercialNormal value="266240"/>
+        <HisiCommercialSimplify value="266240"/>
+      </pathNode>
+      <pathNode name="cryptfs">
+        <HisiBetaNormal value="819200"/>
+        <HisiBetaSimplify value="819200"/>
+        <HisiCommercialNormal value="819200"/>
+        <HisiCommercialSimplify value="819200"/>
+        <QcomBetaNormal value="819200"/>
+        <QcomBetaSimplify value="819200"/>
+        <QcomCommercialNormal value="819200"/>
+        <QcomCommercialSimplify value="819200"/>
+        <MtkBetaNormal value="819200"/>
+        <MtkBetaSimplify value="819200"/>
+        <MtkCommercialNormal value="819200"/>
+        <MtkCommercialSimplify value="819200"/>
+      </pathNode>
+      <pathNode name="f2fs-tools">
+        <HisiBetaNormal value="528384"/>
+        <HisiBetaSimplify value="528384"/>
+        <HisiCommercialNormal value="528384"/>
+        <HisiCommercialSimplify value="528384"/>
+        <QcomBetaNormal value="528384"/>
+        <QcomBetaSimplify value="528384"/>
+        <QcomCommercialNormal value="528384"/>
+        <QcomCommercialSimplify value="528384"/>
+        <MtkBetaNormal value="528384"/>
+        <MtkBetaSimplify value="528384"/>
+        <MtkCommercialNormal value="528384"/>
+        <MtkCommercialSimplify value="528384"/>
+      </pathNode>
+      <pathNode name="storage">
+        <HisiBetaNormal value="4176"/>
+        <HisiBetaSimplify value="4176"/>
+        <HisiCommercialNormal value="4176"/>
+        <HisiCommercialSimplify value="4176"/>
+        <QcomBetaNormal value="4176"/>
+        <QcomBetaSimplify value="4176"/>
+        <QcomCommercialNormal value="4176"/>
+        <QcomCommercialSimplify value="4176"/>
+        <MtkBetaNormal value="4176"/>
+        <MtkBetaSimplify value="4176"/>
+        <MtkCommercialNormal value="4176"/>
+        <MtkCommercialSimplify value="4176"/>
+      </pathNode>
+    </deviceLabel>
+  </devicePath>
+</config>

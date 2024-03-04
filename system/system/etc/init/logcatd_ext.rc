@@ -1,0 +1,24 @@
+service applogcat /system/bin/logcat -x 1 -v threadtime -r 4096 -z 10 -n 5 -f /data/log/android_logs/applogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service rillogcat /system/bin/logcat -x 1 -b radio -v threadtime -r 4096 -z 5 -n 5 -f /data/log/android_logs/rillogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+
+service eventslogcat /system/bin/logcat -x 1 -b events -v threadtime -r 4096 -z 2 -n 2 -f /data/log/android_logs/eventslogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+

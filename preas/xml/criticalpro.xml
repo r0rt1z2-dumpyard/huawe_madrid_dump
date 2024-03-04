@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.google.android.gms.policy_sidecar_aps" path="preas/app/AndroidPlatformServices" ss="9008B41F64EB4B2013768C819B2A6212DCEB3378F9C176102A29D6BF95F39DFD" version="2757077"/>
+<package name="com.google.android.ims" path="preas/app/CarrierService" ss="D9940BB1279ED29507AE43DF5A1EED7B202E07A1155AB0D23925D10A3849397F" version="30126956"/>
+<package name="com.android.chrome" path="preas/app/Chrome" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="394511607"/>
+<package name="com.google.android.configupdater" path="preas/app/ConfigUpdater" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.apps.docs" path="preas/app/Drive" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="194720530"/>
+<package name="com.google.android.apps.tachyon" path="preas/app/Duo" ss="CFB36A42E4ADEF961056262CF89F1CF468AEDE99D7152DD54412F3113F6E12A0" version="2999905"/>
+<package name="com.google.android.gm" path="preas/app/Gmail2" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="62024980"/>
+<package name="com.google.android.gms" path="preas/app/GmsCore" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="19629024"/>
+<package name="com.google.android.backuptransport" path="preas/app/GoogleBackupTransport" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.syncadapters.calendar" path="preas/app/GoogleCalendarSyncAdapter" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="2015080710"/>
+<package name="com.google.android.syncadapters.contacts" path="preas/app/GoogleContactsSyncAdapter" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.ext.services" path="preas/app/GoogleExtServices" ss="55A683FE5C7AAC1A9D3D393EADFDCDAB0C2E3589F7ECC9037D594D32A00E2BCA" version="1"/>
+<package name="com.google.android.ext.shared" path="preas/app/GoogleExtShared" ss="D1518A2F7D377C6C60D92BC17F12C2A92ABB76F0777CE579A457B884C000F5AC" version="1"/>
+<package name="com.google.android.feedback" path="preas/app/GoogleFeedback" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.onetimeinitializer" path="preas/app/GoogleOneTimeInitializer" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.packageinstaller" path="preas/app/GooglePackageInstaller" ss="7C85AD1078744FD0C63CBB6710FA24B4630179B56D8242B51C7DF482266C57AD" version="28"/>
+<package name="com.google.android.partnersetup" path="preas/app/GooglePartnerSetup" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.printservice.recommendation" path="preas/app/GooglePrintRecommendationService" ss="292B77B7C86EECCC9AED2E07E08B07D9C41DD28EB0E10E1802680F7E72189DE9" version="4"/>
+<package name="com.google.android.apps.restore" path="preas/app/GoogleRestore" ss="0E0C9138C8AADA4D016FFDBE33442EB123A1B3153BC198CBF17BAE332FE19B3D" version="8558"/>
+<package name="com.google.android.gsf" path="preas/app/GoogleServicesFramework" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="28"/>
+<package name="com.google.android.tts" path="preas/app/GoogleTTS" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="210315903"/>
+<package name="com.google.android.inputmethod.latin" path="preas/app/LatinImeGoogle" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="24511808"/>
+<package name="com.google.android.apps.maps" path="preas/app/Maps" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="1018200144"/>
+<package name="com.google.android.apps.messaging" path="preas/app/Messages" ss="C099FD301BACBBCC2E39426CD3156DE7C6CD7396D42E488164DBB3FFD38BA44A" version="43098330"/>
+<package name="com.google.android.music" path="preas/app/Music2" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="80591"/>
+<package name="com.google.android.apps.work.oobconfig" path="preas/app/OobConfig" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="139"/>
+<package name="com.android.vending" path="preas/app/Phonesky" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="81791700"/>
+<package name="com.google.android.apps.photos" path="preas/app/Photos" ss="B6C617C233FBCBE86949DC4AFEF2B2B7B357086DAAC505075CD8F593980F703E" version="13936276"/>
+<package name="com.google.android.setupwizard" path="preas/app/SetupWizard" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="228"/>
+<package name="com.google.android.marvin.talkback" path="preas/app/talkback" ss="95E9171C1D6865D6449819EAA01B52A7020794AD0F11411AB5491D6D6B98141E" version="60104040"/>
+<package name="com.google.android.googlequicksearchbox" path="preas/app/Velvet" ss="B04129ABD41CF2EB8822BB7C6878FFFA0C4FB3F05172033485C7710A3ECD5475" version="301058769"/>
+<package name="com.google.android.videos" path="preas/app/Videos" ss="B6C617C233FBCBE86949DC4AFEF2B2B7B357086DAAC505075CD8F593980F703E" version="41700341"/>
+<package name="com.google.android.webview" path="preas/app/WebViewStub" ss="8CAA7928BFCBE31EEC89522C38B67851A808BB0A7131714F39404DFC80407425" version="394511605"/>
+<package name="com.google.android.apps.wellbeing" path="preas/app/Wellbeing" ss="4CE1F61D9399E802AE582803E90C92A68FA72E2FF2CCD9B2D91ED91BAB2AC008" version="109435"/>
+<package name="com.google.android.youtube" path="preas/app/YouTube" ss="B6C617C233FBCBE86949DC4AFEF2B2B7B357086DAAC505075CD8F593980F703E" version="1449513000"/>
+<package name="com.google.android.apps.youtube.music" path="preas/app/YTMusic" ss="0FD555E269CFC6FB81ACA18295420E5C5C90E6B1083365E100FEF66BD2FFAB8A" version="34554230"/>
+<package name="com.google.android.overlay.gmsconfig" path="preas/oversea/overlay" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.google.android.overlay.settingsProvider" path="preas/oversea/overlay" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+</packages>

@@ -1,0 +1,11 @@
+{
+  "requires": [
+    {
+      "package": "com.huawei.featurelayer.systemfeature.HwWidget",
+      "version": "1.0.0",
+      "interfaces": [        
+        ".IHwSplineOverScrollerEx"
+      ]
+    }
+  ]
+}

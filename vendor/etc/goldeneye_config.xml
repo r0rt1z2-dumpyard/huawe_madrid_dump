@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <watchpoint name="fd_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="900"/>
+    </watchpoint>
+    <watchpoint name="thread_limit_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <threshold value="200"/>
+    </watchpoint>
+    <watchpoint name="iowait_limit_test">
+        <action name="disable"/>
+        <threshold value="30"/>
+    </watchpoint>
+    <watchpoint name="low_mem_inject_test">
+        <action name="disable"/>
+        <userspace_mem_left value="500"/>
+        <kernelspace_mem_left value="500"/>
+    </watchpoint>
+    <watchpoint name="app_oom_test">
+        <action name="disable"/>
+    </watchpoint>
+    <watchpoint name="app_mem_limit_test">
+        <action name="enable"/>
+        <appmemlimit_warning_limit value="150"/>
+        <appmemlimit_monitor_interval value="30"/>
+    </watchpoint>
+    <watchpoint name="dynamic_mem_baseline_test">
+        <action name="enable"/>
+        <pid value="all"/>
+        <dynamic_mem_monitor_interval value="7200"/>
+    </watchpoint>
+    <watchpoint name="app_gpu_limit_test">
+        <action name="enable"/>
+    </watchpoint>
+    <module name="fd_leak_test">
+        <action name="enable"/>
+        <fd_monitor_num value="5"/>
+        <threshold value="50"/>
+        <timer value="60"/>
+        <child_timeout value="65"/>
+    </module>
+</config>

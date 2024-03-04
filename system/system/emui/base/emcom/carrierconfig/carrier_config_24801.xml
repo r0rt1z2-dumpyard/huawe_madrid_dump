@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Telia(EMT) EE -->
+    <carrier_config>
+        <!-- AR0009L1Q8 w00186414 2017/09/15 begin -->
+        <!-- AR0009L1Q8 w00186414 2017/09/15 end -->
+        <!-- Volte UI -->
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="4" />
+        <int name="maxMessageSize" value="307200" />
+        <!--Google Message config end -->
+    </carrier_config>
+</carrier_config_list>

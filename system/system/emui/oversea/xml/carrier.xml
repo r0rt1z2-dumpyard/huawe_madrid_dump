@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="dbaf825844507755fa5c1c37f9ccc90c">
+  <dict>
+    <!--2018-06-14 18:50:20.0-->
+    <bool key="hw_hide_lte">true</bool>
+    <!--2018-06-19 17:38:28.0-->
+    <bool key="hw_stkTitleSim">true</bool>
+    <!--2018-10-25 14:38:06.0-->
+    <bool key="support_vn_ecc">true</bool>
+  </dict>
+</config>

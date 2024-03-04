@@ -1,0 +1,8 @@
+service hiapplogcat /system/bin/hilogcat -s *:I -b hilog_main hilog_system hilog_crash -r 4096 -z 10 -n 5 -f /data/log/hilogs/hiapplogcat-log
+    class late_start
+    user system
+    group system
+    disabled
+    seclabel u:r:glogcat:s0
+    writepid /dev/cpuset/system-background/tasks /dev/blkio/system-background/tasks /dev/cpuctl/bg_non_interactive/tasks /dev/stune/system-background/tasks
+

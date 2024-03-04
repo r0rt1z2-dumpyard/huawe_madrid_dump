@@ -1,0 +1,73 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+    setprop ro.odm.build.fingerprint ${ro.product.odm.brand}/${ro.product.odm.name}/${ro.product.odm.device}_${ro.boot.product.hardware.sku}:${ro.build.version.release}/${ro.vendor.build.id}/${ro.vendor.build.version.incremental}:${ro.vendor.build.type}/${ro.vendor.build.tags}
+
+# Service add below.
+on property:ro.boot.product.hardware.sku=MRD-L03
+    symlink /odm/hw_odm/MRD-L03/etc/permissions /mnt/hw_odm
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+on property:ro.boot.product.hardware.sku=MRD-L23
+    symlink /odm/hw_odm/MRD-L23/etc/permissions /mnt/hw_odm
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-L41A
+    symlink /odm/hw_odm/MRD-L41A/etc/permissions /mnt/hw_odm
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-AL00
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-L01
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+on property:ro.boot.product.hardware.sku=MRD-L02
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+on property:ro.boot.product.hardware.sku=MRD-L11
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-L21A
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-L22
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-TL00
+	setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+on property:ro.boot.product.hardware.sku=MRD-L02X
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+on property:ro.boot.product.hardware.sku=MRD-L03X
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+on property:ro.boot.product.hardware.sku=MRD-L01X
+	setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1

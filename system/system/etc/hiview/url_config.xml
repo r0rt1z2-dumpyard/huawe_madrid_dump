@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UrlConfig>
+    <urlItem  type="http" region="China" used="ueserver" name="SERVER_URL_DOMESTIC" url="http://data.hicloud.com:8089/emuiv2" />
+    <urlItem  type="https" region="China" used="pushtoken" name="POST_IP_PORT" url="https://rnd-aresocean-commercial.huawei.com/bidc/" />
+    <urlItem  type="https" region="China" used="samplemanagement"  name="DOWNLOAD_URI" url="https://rnd-cbgpas01.huawei.com/download/SampleManagement.apk" />
+    <urlItem  type="https" region="China" used="updateconfig"  name="UPDATE_CONFIG_URL" url="https://configserver.hicloud.com/servicesupport/updateserver/data/" />
+    <urlItem  type="https" region="Global" used="ueinterfaceserver"  name="INTERFACE_SERVER_URL" url="https://metrics.data.hicloud.com:6447/getServerInfo" />
+</UrlConfig>

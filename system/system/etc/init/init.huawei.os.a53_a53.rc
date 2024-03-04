@@ -1,0 +1,43 @@
+on init
+    setprop persist.graphics.vulkan.disable false
+
+on boot
+    mkdir /data/misc/hwpush
+    chmod 0770 /data/misc/hwpush
+    chown system system /data/misc/hwpush
+    restorecon_recursive /data/misc/hwpush
+
+    mkdir /data/misc/hwpki
+    chmod 770 /data/misc/hwpki
+    chown system system /data/misc/hwpki
+    restorecon_recursive /data/misc/hwpki
+
+    mkdir /data/cota/cloud
+    chmod 0770 /data/cota/cloud
+    chown system system /data/cota/cloud
+    restorecon_recursive /data/cota/cloud
+
+#teeos
+	mkdir /data/log/tee 0770 root system
+
+#bluetooth
+on property:bluetooth.log.file.create=true
+    mkdir /data/log/bt
+    chown bluetooth bluetooth /data/log/bt
+    chmod 775 /data/log/bt
+    setprop bluetooth.log.file.create false
+
+on property:sys.mount_patch=true
+    umount /patch_hw
+    remove_dm_device patch_hw
+    mount ext4 /dev/block/bootdevice/by-name/patch /patch_hw wait ro
+    setprop sys.mount_patch false
+
+on post-fs-data
+    mkdir /data/misc/hsm
+    chmod 0770 /data/misc/hsm
+    chown system system /data/misc/hsm
+    restorecon_recursive /data/misc/hsm
+
+on property:persist.sys.huawei.debug.on=1
+    setprop persist.log.tag I

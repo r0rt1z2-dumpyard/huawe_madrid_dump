@@ -1,0 +1,18 @@
+service selinux_dmd /system/bin/selinux_dmd
+	socket selinux_dmd seqpacket 0660 oem_5502 logd
+	user oem_5502
+	group oem_5502 system readproc
+	oneshot
+	disabled
+
+on property:ro.logsystem.usertype=3
+	mkdir /data/log/selinux_dmd 0755 oem_5502 oem_5502
+	chown oem_5502 oem_5502 /data/log/selinux_dmd/reported.log
+	restorecon /data/log/selinux_dmd
+	start selinux_dmd
+
+on property:ro.logsystem.usertype=5
+	mkdir /data/log/selinux_dmd 0755 oem_5502 oem_5502
+	chown oem_5502 oem_5502 /data/log/selinux_dmd/reported.log
+	restorecon /data/log/selinux_dmd
+	start selinux_dmd

@@ -1,0 +1,23 @@
+service hwhfd /system/bin/hwhfd
+	class late_start
+	user root
+	group oem_5503 root system cache radio
+	disabled
+	oneshot
+
+on early-boot
+	mkdir /data/hwhf 0700 oem_5503 oem_5503
+	mkdir /data/hwhf/state5 0700 oem_5503 oem_5503
+	restorecon_recursive /data/hwhf
+	chmod 0660 /dev/oases
+	start hwhfd
+
+on property:hwouc.hwhfd.start=1
+	mkdir /data/hwhf 0700 oem_5503 oem_5503
+	mkdir /data/hwhf/state5 0700 oem_5503 oem_5503
+	restorecon_recursive /data/hwhf
+	chmod 0660 /dev/oases
+	start hwhfd
+
+on property:hwouc.hwhfd.start=0
+	stop hwhfd

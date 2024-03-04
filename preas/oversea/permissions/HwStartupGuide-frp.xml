@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="frp-client"
+        file="/preas/jars/google-play-services-base-oem-second-party-6780000.jar" />
+</permissions>

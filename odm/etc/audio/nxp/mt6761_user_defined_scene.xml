@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SCENE_CATEGORY NAME="VALUE">
+	<!-- mmi test for phone/-->
+	<USER_SCENE id = "1"  key="output_device"    value0="speaker"                value1="NONE"    is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_MMI_SPK"    smartpa_l_on_path="MMI_POWER_ON_PRI_L" smartpa_r_on_path="NONE" smartpa_l_off_path="MMI_POWER_OFF" smartpa_r_off_path="NONE" />
+	<USER_SCENE id = "2"  key="output_device"    value0="speaker-no-algorithm"   value1="NONE"    is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_SCENE_NULL" smartpa_l_on_path="MMI_POWER_ON_PRI_L" smartpa_r_on_path="NONE" smartpa_l_off_path="MMI_POWER_OFF" smartpa_r_off_path="NONE" />
+	<!-- smartpa  test :phone and pad  ,the smartpa_l_on_path is different  /-->
+	<USER_SCENE id = "5"  key="output_device"    value0="smartpa"                value1="NONE"    is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_MUSIC"      smartpa_l_on_path="MMI_POWER_ON_PRI_L" smartpa_r_on_path="NONE" smartpa_l_off_path="MMI_POWER_OFF" smartpa_r_off_path="NONE" />
+	<!-- audioloop  for phone/-->
+	<USER_SCENE id = "12" key="audioloop"        value0="hsmic_speaker"          value1="NONE"    is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_MMI_SPK" smartpa_l_on_path="MMI_POWER_ON_PRI_L"   smartpa_r_on_path="NONE" smartpa_l_off_path="MMI_POWER_OFF" smartpa_r_off_path="NONE" />
+	<USER_SCENE id = "21" key="mmi_test"         value0="NONE"                   value1="off"     is_trigger_now="0" is_always_active_until_off="0" enforced ="0" algo_scene="SMARTPA_SCENE_NULL" smartpa_l_on_path="MMI_POWER_OFF"        smartpa_r_on_path="NONE" smartpa_l_off_path="MMI_POWER_OFF" smartpa_r_off_path="NONE" />
+	<USER_SCENE id = "22" key="SmartPA_lowpower" value0="on"                     value1="off"     is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_LOWPOWER"   smartpa_l_on_path="NOT_NEED_CHANGE"      smartpa_r_on_path="NOT_NEED_CHANGE" smartpa_l_off_path="NOT_NEED_CHANGE" smartpa_r_off_path="NOT_NEED_CHANGE" />
+	<USER_SCENE id = "23" key="tty_mode"         value0="tty_hco"                value1="tty_off" is_trigger_now="0" is_always_active_until_off="1" enforced ="0" algo_scene="SMARTPA_SCENE_NULL" smartpa_l_on_path="NOT_NEED_CHANGE"      smartpa_r_on_path="NOT_NEED_CHANGE" smartpa_l_off_path="NOT_NEED_CHANGE" smartpa_r_off_path="NOT_NEED_CHANGE" />
+</SCENE_CATEGORY>

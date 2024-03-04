@@ -1,0 +1,74 @@
+on early-init
+
+on init
+
+on early-fs
+    #oeminfo
+    wait /dev/block/bootdevice/by-name/oeminfo
+    #wait /dev/block/by-name/oeminfo
+    start oeminfo_nvm
+
+on fs
+ 
+on post-fs
+
+on post-fs-data
+
+on early-boot
+    start hwemerffu
+
+on boot
+
+service atcmdserver  /vendor/bin/atcmdserver
+    class main
+    group root system nfc graphics radio camera
+    disabled
+
+service diagserver /vendor/bin/diagserver
+    class main
+    user root
+    group root system radio
+    disabled
+
+service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
+    class core
+    group system readproc root
+    ioprio rt 4
+    seclabel u:r:oeminfo_nvm:s0
+
+service multichannel /vendor/bin/multichannel
+    class main
+    group root system radio graphics
+
+service fcs /vendor/bin/fcs
+    class main
+    group root system radio graphics
+
+on charger
+    start atcmdserver
+    start diagserver
+
+on property:ro.runmode=factory
+    start fcs
+    start fmd
+
+service fmd /vendor/bin/fmd
+    class main
+    user root
+    group system log
+    seclabel u:r:fmdserver:s0
+
+on property:sys.boot_completed=1
+    setprop ro.odm.boot_completed 1
+
+service hwemerffu /vendor/bin/hwemerffu
+    class main
+    user root
+    group root system
+    oneshot 
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+   stop diagserver
+
+on property:sys.usb.config=manufacture,adb && property:sys.usb.configfs=1
+   start diagserver

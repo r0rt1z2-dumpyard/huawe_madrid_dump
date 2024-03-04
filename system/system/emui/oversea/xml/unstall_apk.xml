@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/system/app/HwUserExperience.apk;/system/app/HwTrustCircle.apk;/system/priv-app/HwPushService.apk;/system/app/HwPushService.apk;/system/app/HwDetectRepair.apk;/system/priv-app/HwPhoneService.apk;/system/priv-app/HwMediaCenter_cloud.apk;/data/hw_init/system/app/HwMediaCenter_cloud.apk;/system/app/HwCloudDrive_Local.apk;/system/app/HwCloud_Local.apk;/data/hw_init/system/app/HwCloudDrive_Local.apk;/system/priv-app/HiSpace.apk;/data/hw_init/system/app/HiSpace.apk;/system/app/HiFolder.apk;/system/delapp/HiAppOOBE.apk;/system/app/HMS.apk;/system/app/HwWallet.apk;/data/hw_init/system/app/HwWallet.apk;/system/app/HwCloudDrive.apk;/system/app/HwCloud.apk;/data/hw_init/system/app/HwCloudDrive.apk;/system/priv-app/HwIntelligent.apk;</apk>
+</tag>

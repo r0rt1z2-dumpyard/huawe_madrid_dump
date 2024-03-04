@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UploadThreshold>
+  <Beta>
+    <Total eventidWifi="102400" eventidData="2048" normalWifi="20971520" normalData="20480" extraWifi="20971520" extraData="0"/>
+  </Beta>
+  <Commercial>
+    <Total eventidWifi="5120" eventidData="1024" normalWifi="5120" normalData="1024" extraWifi="5120" extraData="0"/>
+  </Commercial>
+</UploadThreshold>

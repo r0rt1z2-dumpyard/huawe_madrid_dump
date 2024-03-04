@@ -1,0 +1,46 @@
+# 2018-07-04 16:06:26.0
+fw.max_users=1
+# 2018-07-04 16:06:26.0
+fw.show_multiuserui=0
+# 2018-07-04 16:06:27.0
+hw.lcd.density.scale=800
+# 2018-07-04 16:06:26.0
+ro.build.hw_emui_lite.enable=true
+# 2018-07-04 16:06:26.0
+ro.config.hw_emui_dbsearch_lite=true
+# 2018-12-20 21:19:42.0
+ro.config.hw_globalSearch=false
+# 2018-09-13 17:37:58.0
+ro.config.hw_linkedin_enable=false
+# 2018-07-04 16:06:26.0
+ro.config.hw_support_clone_app=false
+# 2018-07-04 16:06:26.0
+ro.config.support_sdcard_crypt=false
+# 2018-09-10 17:37:16.0
+ro.feature.animation.style=simple
+# 2018-09-17 10:19:37.0
+ro.feature.calendar.map=false
+# 2018-09-17 10:19:37.0
+ro.feature.calendar.permanentcalendar=false
+# 2018-09-13 17:37:58.0
+ro.feature.contacts.favorite=false
+# 2018-09-13 17:37:58.0
+ro.feature.contacts.smartgroup=false
+# 2018-10-16 09:42:06.0
+ro.feature.dfr.appeye=false
+# 2018-09-17 17:58:58.0
+ro.feature.email.ai_translation=false
+# 2018-09-17 17:58:58.0
+ro.feature.email.group=false
+# 2018-09-17 17:58:58.0
+ro.feature.email.smime=false
+# 2018-10-09 14:09:41.0
+ro.feature.intelligence.level=Lite
+# 2018-10-08 21:30:36.0
+ro.feature.systemui.blur_wallpaper=false
+# 2018-10-16 22:20:32.0
+ro.feature.wms.singlemode=false
+# 2018-07-04 16:06:27.0
+ro.gallery.thumbnailLoading=true
+# 2018-08-08 14:28:03.0
+ro.prop.hwkeychain_switch=false

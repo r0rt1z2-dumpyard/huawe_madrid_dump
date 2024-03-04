@@ -1,0 +1,4 @@
+version=1.11.18.102
+type=CARRIERCONFIG
+subtype=EMUI9
+compatibleVersion=1

@@ -1,0 +1,10 @@
+/dev/block/platform/bootdevice/by-name/system /system ext4 defaults 0 0
+/dev/block/platform/bootdevice/by-name/vendor /vendor ext4 defaults 0 0
+/dev/block/platform/bootdevice/by-name/odm /odm ext4 defaults 0 0
+/dev/block/platform/bootdevice/by-name/userdata /data f2fs discard,noflush_merge 0 0
+/dev/block/platform/bootdevice/by-name/cache /cache ext4 noauto_da_alloc,discard 0 0
+/dev/block/platform/bootdevice/by-name/protect1 /mnt/vendor/protect_f ext4 noauto_da_alloc,commit=1,nodelalloc 0 0
+/dev/block/platform/bootdevice/by-name/protect2 /mnt/vendor/protect_s ext4 noauto_da_alloc,commit=1,nodelalloc 0 0
+/dev/block/platform/bootdevice/by-name/nvdata /mnt/vendor/nvdata ext4 noauto_da_alloc,discard 0 0
+/dev/block/platform/bootdevice/by-name/nvcfg /mnt/vendor/nvcfg ext4 noauto_da_alloc,commit=1,nodelalloc 0 0
+/dev/block/platform/bootdevice/by-name/persist /mnt/vendor/persist ext4 noauto_da_alloc,commit=1,nodelalloc 0 0

@@ -1,0 +1,11 @@
+ro.odm.config.face_recognition=true
+ro.odm.config.support_face_mode=0
+#  DTS2018070510610 niujunxiang 00364761 2018-12-21 18:17:07.0 
+ro.boot.opt_c2k_lte_mode=2
+#  DTS2018070510610 niujunxiang 00364761 2018-12-21 18:17:07.0 
+ro.boot.opt_c2k_support=1
+#  DTS2018070510610 niujunxiang 00364761 2018-12-21 18:17:07.0 
+ro.boot.opt_md1_support=12
+#  DTS2018070510610 niujunxiang 00364761 2018-12-21 18:17:07.0 
+ro.boot.opt_ps1_rat=C/Lf/Lt/W/T/G
+ro.confg.hw_odmversion=Chipset-MTK 9.1.0.(171O)_ODM_MADR

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+    <package name="com.huawei.skytone">
+        <versions>
+            <item hash="ebb86e91b7aeb84e801735165e69f0260eac28c93814cd1be91ca1d761df8f47" />
+            <item hash="b763a25a5d212cb21a49d99a513adbb0e397c3f29f5baa5e7bb919170b07589b" />
+            <item hash="0ba7a5b4102ebcf0c016aa3735fc95ec2ed90577d2874602004e4a88369bf8e0" />
+        </versions>
+    </package>
+    <package name="com.huawei.appmarket">
+        <versions>
+            <item hash="15c736dd5cfe2887189df99af3e0c92e0c47e1affc89ecf3ed1afeaa3bfe5665" />
+        </versions>
+    </package>
+    <package name="com.huawei.android.remotecontrol">
+        <versions>
+            <item hash="420eed82880c7537ef97631bd3efe55095a5bcefc1e304db265b8649d1e6ebb1" />
+            <item hash="58ebbe562ee01c4027e673640952702af4ebf03ba754fe7b9631c29f13b1dd0f" />
+            <item hash="041616ef9e45e770c5f432d9b3ca6f5c636d74009859e1040db0d8d6ca79479f" />
+            <item hash="759fcd72b82c5a21a269811371b80153afb170f0742bafea6438fd68699f3854" />
+            <item hash="5b730fe82cb7315ab0afec38aa45e45dda45d0c21da358e6dd568459b676b1a7" />
+            <item hash="c85820af22d55454a5658f92b15b7ab07b3fbe809310c5970c847105c11e9c05" />
+            <item hash="d02ce133591bee40764544fb3e4e8daa64f71896a9ba8291c74d675a4959ca29" />
+            <item hash="e41e75fd7a286fc51eb8a9dd952dd324df7368827b60f9f46d7db7dac24c3a16" />
+            <item hash="d093ddaa109083e31c30e017ac1f7e679e3ce330b0ebb31f2f54b72b683f097e" />
+            <item hash="5641a579c877d8b7f18d9f413b45093c1d36fc776c5dce25e8c27880fb2869b5" />
+            <item hash="a677ce3382e0abb098c79a239775861783dc45be5822c488f745dbeb64b327b5" />
+            <item hash="63ebc0ee882fc4d73b0b32bb958ef4e67319c39e149668110e7985c88d4f111d" />
+            <item hash="008aa47e60389cdea7834b1e7736f4784803c24b4f80b59ffedf68f66e039d56" />
+            <item hash="a7ab4a1abe501d2fca6a5b90b9c74a7e8e9f45ff16fa45920e164863e9408fcf" />
+            <item hash="e459c9728a1415074fb3cafc04a011979aef1d842106884e9904a2542c26dcf0" />
+            <item hash="87e241ee52c53a0beb3184692c31f81753136b726b3e9e6eeda5a8a989675463" />
+            <item hash="b983d5f4e572d6a8479b4e122bf5eb1804331adc0c830e1532bd6022e439bad3" />
+            <item hash="7f189d56adf776151cbd6589b063e5316898ba08f98bfb0df564e2825acc1a91" />
+        </versions>
+    </package>
+    <package name="com.huawei.remoteassistant">
+        <versions>
+            <item hash="d2564eff90222c745db26925aedcba15c8ee5ca342acfe27d78e77f8e79f9bd7" />
+            <item hash="f2582a4dbb28192a2f3c72c8f3030a6bcfcd0bf3678900912010048386105d0a" />
+        </versions>
+    </package>
+    <package name="com.hicloud.android.clone">
+        <versions>
+            <item hash="4110803cd180fd2808078155c6e7e4502e27fdc834f581638c1b760b2b86413b" />
+            <item hash="e4ea41a78d052948e81d2c85ee9a9a8d29dc06ed8af23e2fbf2ec0575ead11bc" />
+        </versions>
+    </package>
+    <package name="com.huawei.cloudwifi">
+        <versions>
+            <item hash="824433b141785c512cb7dd3fd98ba7b3ea2fa2332969d2bfeef7353424866866" />
+            <item hash="ca754240d778c8e9efba4d0eb8851526a235991f7b4c17ff587e5d51208b3e00" />
+            <item hash="5ec87397e13703436bf381e9ba75a8b2e72bf9a1876a2b6e757a548b30d8298e" />
+            <item hash="35e0b376ba6941801c52fab923bf6bcefb39936a2fdb4628bfd900d9ed0cb687" />
+            <item hash="b0ff7e59bee7c4d9cb8e40e38b63f3db8954553c046bd4eaa87fefbb29ce7452" />
+            <item hash="1ccce08785bb57550c7acac198c7d6ff8b9e55fb0835abb37165f2fee4007769" />
+            <item hash="e6062efd6abe50a2dcb5d1122ba19407a713261745d9eb08f86de26070b19d2b" />
+        </versions>
+    </package>
+    <package name="com.huawei.himovie">
+        <versions>
+            <item hash="47a122c91852e1273590225ac6ce57b05a9e13e2b4c1f71a5cc2c0be48648b76" />
+            <item hash="6f931656517547ac065ea3936cb603336551dd960b76925799600b25eb0af7c4" />
+            <item hash="086f7dc7da0b4544dab20886e5a34babf308dab018fe7224a8b5d642fa3d2f0e" />
+            <item hash="620c567134ac1d2f4e337950d9dfde68d005c6feb355d6537ecaf66e2d9537f4" />
+        </versions>
+    </package>
+    <package name="com.huawei.hisuite">
+        <versions>
+            <item hash="ff88f653aee130c176c197ca26fbb22226c8a6ae6867ff2ac4a098c5cb15d60c" />
+            <item hash="5da08273fc3641d463965a4647d43003e9ab95df6b6af75daddb7d84876fe73a" />
+            <item hash="42937071f02fb15dc1946782efbe302ccc208f6b24e80f8a2d25105c907124c6" />
+            <item hash="b7da129e8adb8d32d2cd8a9b4707fdefe678807661a2c29dabd098323bf3ec0e" />
+            <item hash="5a7f67216de726b8603f8fa1a739fe8dc8abf9d8c1956db87936033c392d99cc" />
+            <item hash="ad1b3c08bc502df35ffb60ea446b1347695c6ce7c30d7bb567f70272e04fd0d2" />
+            <item hash="304b0b42a492ada10d99688a3d7d2b4ce34a559ee2b823f4676dcede7c1d3c22" />
+            <item hash="8ec6933d95fd650cb9e557bf5ec0f2abdfa2976728a9a40f18fbcaf721c8122a" />
+            <item hash="dfde9e91bf14f1eaf5cd141148621e39f0ff099df09b4654158f7543087dd763" />
+            <item hash="07d12dccfda9eb791d2b0540368db32e3ab5764608bd98438036947c78431e62" />
+            <item hash="8c1424ba50124108fecbc3e26372b5b14cc956c1d1be9df801046f6f71ba28bb" />
+            <item hash="2436fabd8fe2602bb139c3f8c216f1451bdcb222784bdbaee496e760180adbcf" />
+            <item hash="fd9c4794fcca6651c5129ad171887988bb84f12ca401c14ba52d5fba3f622fc0" />
+        </versions>
+    </package>
+    <package name="com.huawei.mw">
+        <versions>
+            <item hash="7996a03b7484cb33066fe786ad40379410ab66f33d9bc11354699391bb271217" />
+            <item hash="5cb298a7113fb0b7860f93a877fb9a410fa058a4dfcacc14c321f3791e84c91b" />
+            <item hash="7dfb9178917e8ad3f858a5336263ea1adee7ad1cf14013e0e4e94488bebfb959" />
+            <item hash="c66853d32b7625e60dc79060d1c17152cd602e72d0555f6fb2927220017d2bda" />
+            <item hash="b4be40a47014fa7a86a2cab67137f2b90aec21eb83a4cdad8786e0d7483e2646" />
+            <item hash="793aa0038ae2276369ef35e3d8f761f9a1f2148c40f736032348e4c17dbdd7f9" />
+        </versions>
+    </package>
+    <package name="com.huawei.hwid">
+        <versions>
+            <item hash="5cb5a32a2fd0bcd3ead0ac5176b795ebe522b233c5773e7e58e1bbf7012234ee" />
+            <item hash="0a2fff804109ded277cb65682ab433ff4fa947547672d2f019f32a6e8da24590" />
+            <item hash="8ad3f786957f32ca895f7bb2cb9cf9c546f3bf8656ad01397755767f7860219b" />
+            <item hash="3b954140ad08071a8f409aea037b09e96f5c926fb5c2f241396c6add64963694" />
+            <item hash="25dd24077d1598bb56dc3e8a31521339fd750d110bcac803a830fe197c088bf1" />
+            <item hash="0d327ffa0302a86622b542bc289309e4e7df632b7cebcc33210189762ae31145" />
+        </versions>
+    </package>
+    <package name="com.huawei.lives">
+        <versions>
+            <item hash="6e2faba934a478fe79e210ff8a5b83420853fee6d5de95ee2a74a34c70916293" />
+            <item hash="f00cd6a7b633facab53c6208ba2cff045e3d649482288554f2a1b5809631ceb2" />
+            <item hash="f700dba62c212a69be78423dd8ef5c41d3a5fa7ffb6ac0024ccdc66d44f5b328" />
+            <item hash="0a98525b472a8cdb0e9e00214b7c32d41057135796f740d7923310e139a7151a" />
+            <item hash="b622f4b337bbed02b7587d21deec0670868fc90123cc46b3fb0fc34cdbff2d93" />
+            <item hash="15ba708ab322b2b525506e6fe9f2bc0575f80d5684dbf0a26f0bcbe31e5d571a" />
+            <item hash="15ba708ab322b2b525506e6fe9f2bc0575f80d5684dbf0a26f0bcbe31e5d571a" />
+            <item hash="bfbaf2646497695ad52f125b0d946dfe1d1f6a1995fd794ae84f54a26966bb01" />
+            <item hash="82984c34f4e6ea660d6124da429685e1949d665350c6e01ecc5ac0bcb811d8cb" />
+            <item hash="3546dd26d56610cafe78881017fd93d3ee01d53e14375efb6242165925634a78" />
+            <item hash="31e2e24c1f67bc6a86f11e36047beb45a2d820239869193d9a37a2c0d9412245" />
+            <item hash="31e2e24c1f67bc6a86f11e36047beb45a2d820239869193d9a37a2c0d9412245" />
+        </versions>
+    </package>
+    <package name="com.huawei.hiskytone">
+        <versions>
+            <item hash="d7e69136190c52015f7004a4e6752e63a0fa3d1c17d002adad94b3d592b58823" />
+            <item hash="99114129844ed293e6e50d671f8265b2fb2bd8b8bd2fd72805464f0deb8cfece" />
+            <item hash="36b1638f3d54cc1be0c94795d4eeae02f053884017938c454b9035214e801b4c" />
+            <item hash="81a80b269b687dbf62753d670d738ffea82529c3031abc6b9251f01f3a5bbadf" />
+            <item hash="3d00520ea3143b2df1c7ac72af265835d16c96d097901f90f062f142f046d553" />
+            <item hash="60796ec9550253d862522f2f2dc9485e9da19d72de0726a26db2f68d4eb017f3" />
+        </versions>
+    </package>
+    <package name="com.huawei.hidisk">
+        <versions>
+            <item hash="51e6c7c15c3fff04e203fb937b88556e9f2eb7d8338ac0d6e9defeb7f4bde240" />
+            <item hash="8ba669c3b54525ee3fc4d1ebd4e33ce8feeef6d7ff0f325521bdf6639adef77f" />
+            <item hash="aea19f3e18c5531e8f43be82cd9eb381d93b5674c6e5c540b5883d54ed76642b" />
+            <item hash="e49ad77c658c3c267663ef513b4fe351d2e23f3023124b7f4701ab72f7c807c3" />
+            <item hash="7cf5e73247649bc2c1afaa3334be21a3e777781f022595514048e3f2d45f749e" />
+            <item hash="bada95da4f79940488506334249b34da43f7468523af12bed8c486680eb4e8c4" />
+            <item hash="f9ded9a12034e2f09873bd3eebf886c1b688c5d1eb34bb97591482bd9d84baf5" />
+            <item hash="2fead2afab39e0139b09ea3e3e748017da410ff55a7d6176ec13ab560bf6e070" />
+            <item hash="f53c3ebf47d85698b54e1244373628933b2d2ef1275e10f5a38f761277059b89" />
+            <item hash="beb4bb98a88e10c1187610e8597afda7bce6fc284bf0c5ead0ea63d2486f0142" />
+        </versions>
+    </package>
+    <package name="com.huawei.health">
+        <versions>
+            <item hash="b76508cbf56507fb59526cd6c90cfdb2073d9243c083c50bbba6c98f8186a82c" />
+            <item hash="8c36cd4601752532c18779ad4ad9651798b7cabbd2dcfa416a5a8316db002101" />
+        </versions>
+    </package>
+    <package name="com.huawei.gamebox.global">
+        <versions>
+            <item hash="03160e8dbe8021a7c98930e249a7c246d5bcd425ba65a7b2516fc4d54adedd48" />
+            <item hash="05c72756b6927096fe951e101462ba75ff043a68fff716a003ad26b6bc239a2e" />
+            <item hash="856fda3e8b2e1fb4f9cdd569aa575a3edbad6401590db45d78c8128ebd38026b" />
+            <item hash="fc4907f1b27d2b8377e9ee784df383141a050c570cd30b4d24f4044955fd37f1" />
+            <item hash="8968f86f2955b8270f2205cdb3fcbdd2b7d2e0db7202aca8e9b316211db8af89" />
+        </versions>
+    </package>
+    <package name="com.huawei.wallet">
+        <versions>
+            <item hash="67ccf8920ea41eb5910f34dfb5289a4e8278828e8b2a588a892cbdce91d28670" />
+            <item hash="b67b13a89ccfd6c8914b17f0aed8efaa7906b3f5724c96000897a69dc7e20ceb" />
+            <item hash="82435f013e80f2b7a59712a19941a38f4e0578da19f3091a01fe153e980a62f3" />
+            <item hash="82435f013e80f2b7a59712a19941a38f4e0578da19f3091a01fe153e980a62f3" />
+            <item hash="b67b13a89ccfd6c8914b17f0aed8efaa7906b3f5724c96000897a69dc7e20ceb" />
+            <item hash="82435f013e80f2b7a59712a19941a38f4e0578da19f3091a01fe153e980a62f3" />
+            <item hash="fbe28ec113d30dfdba851094b73f04c79dd251f72f7cdcf9da5fc3fe23dd7ffc" />
+            <item hash="2376d94f4be5124f88f1131e66f2576904349558e6d93d386740d219bb1f6818" />
+            <item hash="f510ba41f16199aeeb6640179dbe9d79e22a96da48f0d1983b3d1714002d0fdb" />
+            <item hash="f510ba41f16199aeeb6640179dbe9d79e22a96da48f0d1983b3d1714002d0fdb" />
+            <item hash="8f472eda0b87d9a548ca1d18fd505bed844fabb0d02655665597154c26d0b9b0" />
+            <item hash="8f472eda0b87d9a548ca1d18fd505bed844fabb0d02655665597154c26d0b9b0" />
+            <item hash="553a29f01c4378327c77a8e46919a1e81600f4b561c71fb45912ab679b29bb9a" />
+            <item hash="eef7bb694abb2e5a30377f0dcf0bda7b2ac45598162db640d23b2aa06800b334" />
+            <item hash="2643c6574954914939904a58bec04a9f7861c89e54d9f32b7128880323fed5f7" />
+            <item hash="0244e985aa51e97143e83cabfcb1245c08d9ed9ef3210b4f896042bb731bf18f" />
+        </versions>
+    </package>
+    <package name="com.huawei.gamebox">
+        <versions>
+            <item hash="c8d4722dbcdbcc3ab661e6d0e6f44f736006ad5260f52eee12839406817efc81" />
+            <item hash="9bc177a8d3ca9305857ac9a7fec7bc6bc72f3b95792af483838be346954f4d94" />
+            <item hash="3ffc60ba4e9e7ad3a5de1aef989a59b09055b0654d62dfc8238f08389745af8a" />
+            <item hash="f78a54bcb9b2b29083b78552c2ebce65dc05c55ed7353336b18903c4d124b36d" />
+            <item hash="386c5e9ec7497d0bbf4d55514a2676abc7d95bd56c0f336f2002c1b4a34b2b9d" />
+            <item hash="8f99329b9456161e0c30ac7c6d733af5a4c3acbc6dc9529ff177a5705284820c" />
+            <item hash="dc5b01d9d33db098c6f4a5d7589270dbda62a3a58112ef8e196bbc7083a62d24" />
+            <item hash="e49c712217a9239b87f4825cc17a8b9481a72f8902b1ef7964223dbe4f285634" />
+            <item hash="9c62883785837af451b55300ed83111fb7dfd0295cbca06c64d29ce880aa5b2f" />
+            <item hash="a9057dea2f9fa126e1fb4a3e55d6fe3738959b6c44865028c1a6d10359b21012" />
+        </versions>
+    </package>
+    <package name="com.huawei.android.hwpay">
+        <versions>
+            <item hash="df9a05d2fd5a10d8dc15e94b4b738ec624bdf3820d0b89fabcaafed867d90016" />
+            <item hash="d867f282ccdb1315ff8377c0ccf4ad69b55051ef0d968eb2c4d0b9b5256c74d2" />
+            <item hash="3172f7dd7bde4352a98beca5528cebf548147d5898fbfd5205e406bccaaace59" />
+            <item hash="d5b709ab1c5f58a73bcbd9299ea2a30f8b687bc0957d5da980d960c133be70ca" />
+            <item hash="5f5986fbbf2bf08b070f180651d4e8746ffb1afcf32d42fae5b354cddc9f9985" />
+            <item hash="56d963e788b2e55a166d76845513e3a75b52f6cbfa46ff177f8c256d7938b993" />
+            <item hash="258a0c2540699ffe2f46fe21c0aeee748f5b6902952eefab825d21e48e6b777c" />
+        </versions>
+    </package>
+    <package name="com.huawei.hwireader">
+        <versions>
+            <item hash="8d99997c6cfe813681fb85cdbc9e848e51a58768c591f09c0b9f6c1c6582e9fe" />
+        </versions>
+    </package>
+    <package name="com.huawei.phonediagnose">
+        <versions>
+            <item hash="65b442a51b5a4d324b1e754c152e8b69978ae2271e026183339e341d69081537" />
+            <item hash="ca627c1e05c85dc1e3b431ab3b3c7d194c41c7a3c7e7ee350d45dd4d64706d95" />
+            <item hash="28706735ae94d31715854ee70c0f3a244e4e74a351fcb1119f19d4969cdd3c2d" />
+            <item hash="448cfd6a636d34d83d4ac6714400ae8eb67819ece892a0d70916b94720802bc6" />
+            <item hash="4112e9ca9c049a83b3f06beaa0dc442b4f04cffc7cf415dc1066684c31efeb2c" />
+        </versions>
+    </package>
+    <package name="com.huawei.hicare">
+        <versions>
+            <item hash="d4df9b99c6ba1390baea135590e7cb38ee041890c642d34c48de90bd60ea8c25" />
+            <item hash="aa24214b96816b833463c2826f640ea8693210286c214f48f86fdb3762119710" />
+            <item hash="16cc70b3a38d4e51c865a39bf3d4d6db49c9f68cd641cd41013688dc280abcd8" />
+            <item hash="b5fe4ca34001ebf3c7b8b5c5632b088beffb3b86ef90ff1f81cf414a7aada370" />
+            <item hash="d72c50be97b54c952bb3a97df6afebb8654f5cdc128e7e4d4650b2bb4acba94c" />
+            <item hash="ee83831da901ce6249b5da532bc5c8c5ecf33b2e74d72aea0c23fd805b51b439" />
+            <item hash="3882660ec47604b44dfdcc67013724c23a324a6be4d23a51a797b771443177ed" />
+            <item hash="dee998d33135e9a6517516854bd069973bdd1c0c52604c18828431bf454f20f2" />
+        </versions>
+    </package>
+    <package name="com.huawei.hnreader">
+        <versions>
+            <item hash="b596a7bf4244f3bc4809fac6615f67a98156e3d4c5e0f39135661469b2de7195" />
+        </versions>
+    </package>
+    <package name="com.huawei.phoneservice">
+        <versions>
+            <item hash="542dc5005e12860b49d7efa975c0407903e52ec96e8612283f283c817432d8b3" />
+            <item hash="76701af0dcccc7726cba059451e64a8772c3675847bdd7c7a827b21b2ec09cbd" />
+            <item hash="610bf94174fe0217695ee5a19ffe2e7269544464375489065d44f49febb6f52b" />
+            <item hash="125735a2ed4984b205940fbc75035b905fbefaa47234896155cf4d0970d7ba7e" />
+            <item hash="27c0aa923e0a564a957172a3dc0b8b403a3ccf3239348355f629f8cf144859bb" />
+            <item hash="5d3bc8191491f954ce59d94bfd0ed8893504a05d43c78b58dba51680cb23fb60" />
+            <item hash="da791a88d19a436e0247de18c6a6ae61caed916003efbfa921b3e7553e026dbc" />
+            <item hash="32ca34154dc1a6e434ab9f2982a7ff352dc72c6b5865ec12eb981670cea252b6" />
+            <item hash="d9c49a21ae8605edb3f48b956e4b8aeb67a05b73a49623706a61b063519e6612" />
+            <item hash="f429cee6e989203b281d9bc0154cac9a06538b35d4adb69d834e7b65822e7536" />
+            <item hash="412a4911b7446c41a0e8658967cd6bca56e7be2cdfdbfdf89793d408420a0655" />
+        </versions>
+    </package>
+    <package name="com.huawei.fans">
+        <versions>
+            <item hash="1930d45aa94e18c3a99efb2cfe3d341640c11c9987aec5a80cfcaf4075692c57" />
+            <item hash="345750fc5083aad9413481e27099c64f483565c81894b8e74eadf8ed9d14ba25" />
+            <item hash="1b723b7bcff56ef75f5be3ca35bb9e1a31b72cfe3f7122c95edef569f8460d18" />
+            <item hash="beae290474b257a826e50ff5b6382a4cc31026cd20b506fc3371200cb351febc" />
+            <item hash="1d92b737c627a097586478678caa3a0acca1d71302730b13f7232212c4682826" />
+            <item hash="9b1507cc7e0f5816bd721c3ba3074028bd6cddb78e98b04e3a6e10bfe2cb01ec" />
+        </versions>
+    </package>
+    <package name="com.huawei.KoBackup">
+        <versions>
+            <item hash="6bc730c46434eb69efa5eb0bee9680ff32702b41b0cdedd8db33f6de235981b9" />
+            <item hash="4b1828aad892faa752edf2251255f237736e83f7172d72f07ae5efd5f08f9f25" />
+            <item hash="d28429238531d33d57966667ff2ae94a4a4106e511e17d6a93f9cd6db6485f2c" />
+            <item hash="d34412c42fcf93bd6d93260df3f89311970e61edf58faafcbac9a30e94a45ca2" />
+            <item hash="da497052f7f2f9b076d589cc2d45abf49c0a40b9eec0645f61bfd722e7bc50f8" />
+            <item hash="4cac5b8948c55c7d1ef2b44f0b241fcaa00fb909ba164b7f50fa83468432d3f8" />
+            <item hash="4435215e8aec6af462972c0be61bd0b8cd500a689246c715939fb9ba4144ed0c" />
+            <item hash="8dc94cc615d122107df7ed9b63353191b18a6bb430734e80be979d7dc49f1d2f" />
+            <item hash="dc5d90202ba189e92b828aca8f4d77aa9d414226370015c0c60343a4436fcb30" />
+            <item hash="79d570f79b750517ce767273c6e16828baa37730c2cbad713e7d232516e6c6c5" />
+            <item hash="ac7d8419b375065566556ccd9f2d7cdf04d9da027a34e6bfa055b00e893fdb6f" />
+            <item hash="9a7e7367a26df423aa0b693fc87f28cc125ef4a367381fa62caf421bdc107569" />
+            <item hash="7fc28920e94eda0a72fa533db768e6a80ecf79f9526b374e5b60fd325f4e27cb" />
+        </versions>
+    </package>
+    <package name="com.szdv.hwmanager">
+        <versions>
+            <item hash="90d8b44ca5408d075d2a14cea08c4d2153608a51a18770beb96503aa6f6e889f" />
+        </versions>
+    </package>
+    <package name="com.huawei.mytimeapp">
+        <versions>
+            <item hash="5cc25715fef3541010aa3e19688551f46f9218765fe8598b770f7c0de7afc783" />
+        </versions>
+    </package>
+    <package name="com.szdv.rdmpc">
+        <versions>
+            <item hash="9d5b5385964bc98729c09c9900ec711da74e424620c79030d39a0067570727e9" />
+        </versions>
+    </package>
+    <package name="com.huawei.lucky_money">
+        <versions>
+            <item hash="1c152ccb96bb35cd8266d8622df67055b4dc963485570253beeb1a5fc4b83847" />
+        </versions>
+    </package>
+</packages>

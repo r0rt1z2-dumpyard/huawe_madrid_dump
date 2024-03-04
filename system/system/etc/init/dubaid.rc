@@ -1,0 +1,6 @@
+## Dubai daemon definition
+service dubaid /system/bin/dubaid
+    class main
+    user root
+    group system root readproc log package_info net_bw_stats
+

@@ -1,0 +1,7 @@
+<device DEVNO="0x1030f" TIME="1533717096" UUID="67d78da8-0230-4756-b07e-08bf69699cca" TYPE="f2fs">/dev/block/platform/bootdevice/by-name/userdata</device>
+<device DEVNO="0xb315" TIME="1533717096" UUID="79c6c3bb-afa8-47bc-a346-76584c3f3a27" TYPE="ext4">/dev/block/platform/bootdevice/by-name/cache</device>
+<device DEVNO="0xb305" TIME="1533717096" UUID="1bb20a64-d0b9-4eec-ac37-6fa9bafa23cf" TYPE="ext4">/dev/block/platform/bootdevice/by-name/protect1</device>
+<device DEVNO="0xb306" TIME="1533717096" UUID="adf54b03-507b-4cd0-8670-3102555f6ead" TYPE="ext4">/dev/block/platform/bootdevice/by-name/protect2</device>
+<device DEVNO="0xb304" TIME="1533717096" UUID="3324660d-dead-414b-9a90-caac3719b885" TYPE="ext4">/dev/block/platform/bootdevice/by-name/nvdata</device>
+<device DEVNO="0xb303" TIME="1533717096" UUID="c2b4f875-827d-412f-8eec-c93a033f396c" TYPE="ext4">/dev/block/platform/bootdevice/by-name/nvcfg</device>
+<device DEVNO="0xb308" TIME="1533717096" UUID="80d2ef45-6815-4d50-b373-9900d033d781" TYPE="ext4">/dev/block/platform/bootdevice/by-name/persist</device>

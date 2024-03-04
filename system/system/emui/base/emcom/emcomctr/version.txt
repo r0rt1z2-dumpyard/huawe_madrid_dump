@@ -1,0 +1,4 @@
+version=1.11.19.118
+type=EMCOMCTR
+subtype=EMUI9
+compatibleVersion=1

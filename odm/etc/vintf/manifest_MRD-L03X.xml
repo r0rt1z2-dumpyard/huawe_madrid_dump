@@ -1,0 +1,73 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl" override="true">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.huawei.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IExtBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>android.hardware.nfc</name>
+        <transport>hwbinder</transport>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.huawei.hardware.nfc</name>
+        <transport>hwbinder</transport>
+    </hal>
+	<hal format="hidl" override="true">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>imsrild1</instance>
+            <instance>se1</instance>
+        </interface>
+        <interface>
+            <name>ISap</name>
+            <instance>slot1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.mediatek.hardware.radio_ex</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMtkRadio</name>
+            <instance>mtk_slot1</instance>
+            <instance>mtk_ims_slot1</instance>
+            <instance>mtk_se1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.huawei.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>slot1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.mediatek.hardware.radio_radar</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IRadioRadar</name>
+            <instance>slot1</instance>
+        </interface>
+    </hal>
+</manifest>
+

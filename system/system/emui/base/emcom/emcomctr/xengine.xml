@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xengine version="001.001">
+    <region_config name="CN">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+        <product_config name="default">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="PCT">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <multipathPolicy switch="1">
+                    <mptcp switch="1"></mptcp>
+                    <mpudp switch="1">
+                    </mpudp>
+                </multipathPolicy>
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.qiyi.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <displayDisable>1</displayDisable>
+                                <multipathTcp>
+                                    <enableType>1</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>1</trafficControl>
+                                    <aggregateAdvance>1</aggregateAdvance>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.himovie" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <displayDisable>1</displayDisable>
+                                <multipathTcp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>1</trafficControl>
+                                    <aggregateAdvance>0</aggregateAdvance>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.cloud" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gamecloudpc.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>25</trafficControl>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="air.tv.douyu.android" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>hwmptcp.haplat.net</domainName>
+                                    <port>12321</port>
+                                    <enableCity>北京市,上海市,广州市,深圳市,Beijing,Shanghai,Guangzhou,Shenzhen</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>25</trafficControl>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.bh3" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.enterprise.NGHSoD" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.qihoo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.uc" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.wooduan.ssjj.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.snailgames.HeroSurvival.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="YAL">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <multipathPolicy switch="1">
+                    <mptcp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mptcp>
+                    <mpudp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mpudp>
+                </multipathPolicy>
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>2</bondPolicy>
+                                    <algorithmType>3</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-106</poorMobile>
+                                        <goodWIFI>-66</goodWIFI>
+                                        <poorWIFI>-80</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.android.qqdownloader" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>1</bondPolicy>
+                                    <algorithmType>2</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <reserveField>0</reserveField>
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                                <pattern_80>2e61706b</pattern_80>    <!--.apk-->
+                                                <pattern_443>64642e6d796170702e636f6d</pattern_443>    <!--dd.myapp.com-->
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-110</poorMobile>
+                                        <goodWIFI>-72</goodWIFI>
+                                        <poorWIFI>-76</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.taobao.taobao" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>2</bondPolicy>
+                                    <algorithmType>3</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-106</poorMobile>
+                                        <goodWIFI>-66</goodWIFI>
+                                        <poorWIFI>-80</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.ifeng.news2" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>2</bondPolicy>
+                                    <algorithmType>3</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-106</poorMobile>
+                                        <goodWIFI>-66</goodWIFI>
+                                        <poorWIFI>-80</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.baidu.netdisk" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>1</bondPolicy>
+                                    <algorithmType>1</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-优先建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <reserveField>0</reserveField>
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                                <pattern_443>000f0001010015</pattern_443>    <!--\x00\x0f\x00\x01\x01\x00\x15-->
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-110</poorMobile>
+                                        <goodWIFI>-72</goodWIFI>
+                                        <poorWIFI>-76</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.baidu.haokan" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>2</bondPolicy>
+                                    <algorithmType>3</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-106</poorMobile>
+                                        <goodWIFI>-66</goodWIFI>
+                                        <poorWIFI>-80</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.appmarket" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathFlow>
+                                    <enableType>2</enableType>
+                                    <bondPolicy>1</bondPolicy>
+                                    <algorithmType>2</algorithmType>    <!--1表示动态流分配，用于优化百度网盘;2-初始建链优化，用于优化应用市场和应用宝;0表示无特殊算法-->
+                                    <reserveField>0</reserveField>
+                                    <filter>
+                                        <protocol>
+                                            <tcp>
+                                                <dport>80,443</dport>
+                                                <pattern_80>2e61706b</pattern_80>    <!--.apk-->
+                                                <pattern_443>617070646c73736c|646c2e747863646e73</pattern_443>    <!--appdlssl|dl.txcdns-->
+                                            </tcp>
+                                        </protocol>
+                                    </filter>
+                                    <rssiThreshold>
+                                        <goodMobile>-98</goodMobile>
+                                        <poorMobile>-110</poorMobile>
+                                        <goodWIFI>-72</goodWIFI>
+                                        <poorWIFI>-76</poorWIFI>
+                                    </rssiThreshold>
+                                </multipathFlow>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.himovie" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <displayDisable>1</displayDisable>
+                                <multipathTcp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>1</trafficControl>
+                                    <aggregateAdvance>0</aggregateAdvance>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.cloud" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gamecloudpc.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>25</trafficControl>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.bh3" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.enterprise.NGHSoD" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.qihoo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.uc" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.wooduan.ssjj.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.snailgames.HeroSurvival.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="ELE">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <multipathPolicy switch="1">
+                    <mptcp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mptcp>
+                    <mpudp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mpudp>
+                </multipathPolicy>
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.himovie" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <displayDisable>1</displayDisable>
+                                <multipathTcp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>1</trafficControl>
+                                    <aggregateAdvance>0</aggregateAdvance>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.cloud" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gamecloudpc.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>25</trafficControl>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.bh3" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.enterprise.NGHSoD" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.qihoo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.uc" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.wooduan.ssjj.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                 <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.snailgames.HeroSurvival.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="VOG">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <multipathPolicy switch="1">
+                    <mptcp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mptcp>
+                    <mpudp switch="1">
+                        <disable>
+                            <app name="com.qiyi.video"></app>
+                        </disable>
+                    </mpudp>
+                </multipathPolicy>
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.himovie" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <displayDisable>1</displayDisable>
+                                <multipathTcp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>1</trafficControl>
+                                    <aggregateAdvance>0</aggregateAdvance>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>3</enableType>
+                                    <enableCity>北京市,Beijing</enableCity>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.huawei.cloud" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gamecloudpc.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <firstPathSelection>1</firstPathSelection>
+                                    <trafficControl>25</trafficControl>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.bh3" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.enterprise.NGHSoD" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.qihoo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.miHoYo.bh3.uc" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>70</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.wooduan.ssjj.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                 <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.snailgames.HeroSurvival.huawei" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <multipathPolicy>
+                                <multipathTcp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>8443</port>
+                                    <flag>1</flag>                    <!--Shield the proxy fallback by reason 257-->
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>3</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                </multipathTcp>
+                                <multipathUdp>
+                                    <enableType>2</enableType>
+                                    <domainName>gameturbo.huaweicloud.com</domainName>
+                                    <port>25000</port>
+                                    <testPort>58080</testPort>
+                                    <testUrlSuffix>monitor</testUrlSuffix>
+                                    <policyType>1</policyType>
+                                    <scenarioFlag>0</scenarioFlag>
+                                    <rttThresholdMS>100</rttThresholdMS>
+                                </multipathUdp>
+                            </multipathPolicy>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="EVR">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <emcom_accelerate foreground="false">
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <smartmp>
+                                <threshold1>160</threshold1>
+                                <srvDomainName>aqq.smoba.qq.com</srvDomainName>
+                                <pktThreshStage1>30000</pktThreshStage1>
+                                <timeThreshStage1>40000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>3</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，3是iptables reject策略 -->
+                                <useIAwareLag>1</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <smartmp>
+                                <threshold1>210</threshold1>
+                                <srvDomainName>dsgroup13.pubgm.qq.com</srvDomainName>
+                                <pktThreshStage1>60000</pktThreshStage1>
+                                <timeThreshStage1>20000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>1</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，1是直接切换策略 -->
+                                <useIAwareLag>0</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <smartmp>
+                                <threshold1>210</threshold1>
+                                <srvDomainName>hy.pubgm.qq.com</srvDomainName>
+                                <pktThreshStage1>60000</pktThreshStage1>
+                                <timeThreshStage1>20000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>2</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，2是下行阻断策略 -->
+                                <useIAwareLag>0</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="TNY">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <emcom_accelerate foreground="false">
+                    <!-- app标签为每个应用的配置节点，foreground为true时表示此应用是前台/定时加速应用，foreground为false时表示此应用是界面识别加速应用。grade为前台/定时加速应用时对应的加速等级-->
+                    <app name="com.tencent.mm" foreground="false" grade="1">
+                        <!-- view标签为界面识别时识别的具体界面标签，其中version属性为匹配的微信版本号，此标签可以包含rootView，container，keyword，maxDepth，maxCount，grade子节点 -->
+                        <view version="6.(5.([5-9]|[1-9][0-9]+))">
+                            <!-- rootView 为识别的特殊界面名，配此子节点时，不需要配container，keyword，maxDepth，maxCount子节点 -->
+                            <rootView>En_fba4b94f</rootView>
+                            <!-- grade为加速等级，当前限定为2-3，必选 -->
+                            <grade>3</grade>
+                        </view>
+                        <view version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">
+                            <rootView>LuckyMoneyReceiveUI</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.eg.android.AlipayGphone" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <rootView>SnsCouponDetailActivity</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.tencent.mobileqq" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <!-- 当不配rootView子节点时，需要配container、keyword两个子节点，maxDepth和maxCount可选 -->
+                            <container>android.widget.RelativeLayout</container>
+                            <keyword>点击拆开</keyword>
+                            <maxDepth>3</maxDepth>
+                            <maxCount>12</maxCount>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.gtgj.view" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.Button</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.yipiao" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.tieyou.train.ark" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.taobao.taobao" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.achievo.vipshop" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jingdong.app.mall" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="cn.amazon.mShop.android" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.dangdang.buy2" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jm.android.jumei" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.mogujie" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.sankuai.meituan" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.thestore.main" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.tmall.wireless" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.vmall.client" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.MobileTicket" foreground="true" grade="1"></app>
+                    <app name="com.Kingdee.Express" foreground="true" grade="1"></app>
+                    <app name="com.cainiao.wireless" foreground="true" grade="1"></app>
+                    <app name="com.hicloud.android.clone" foreground="true" grade="4"></app>
+                    <app name="com.ss.android.article.video" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sina.weibo" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.mm" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.sdu.didi.gsui" foreground="true" grade="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <wifimode>0</wifimode>
+                            <multipath>0</multipath>
+                            <multipathType>0</multipathType>
+                            <speedcontrol>1</speedcontrol>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                            <fastSync>0</fastSync>
+                            <smartmp>
+                                <threshold1>200</threshold1>
+                                <srvDomainName>aqq.smoba.qq.com</srvDomainName>
+                                <pktThreshStage1>30000</pktThreshStage1>
+                                <timeThreshStage1>40000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>3</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，3是iptables reject策略 -->
+                                <useIAwareLag>1</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgmhd" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <smartmp>
+                                <threshold1>300</threshold1>
+                                <srvDomainName>dsgroup13.pubgm.qq.com</srvDomainName>
+                                <pktThreshStage1>60000</pktThreshStage1>
+                                <timeThreshStage1>20000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>1</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，1是直接切换策略 -->
+                                <useIAwareLag>0</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.tencent.tmgp.pubgm" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <smartmp>
+                                <threshold1>300</threshold1>
+                                <srvDomainName>hy.pubgm.qq.com</srvDomainName>
+                                <pktThreshStage1>60000</pktThreshStage1>
+                                <timeThreshStage1>20000</timeThreshStage1>
+                                <battlePortStart>10000</battlePortStart>
+                                <heartBeatPort>5008</heartBeatPort>
+                                <schedPolicy>2</schedPolicy>        <!-- schedPolicy为游戏切换时所采用策略，2是下行阻断策略 -->
+                                <useIAwareLag>0</useIAwareLag>
+                                <eco>1</eco>
+                            </smartmp>
+                        </hicomfeatures>
+                    </app>
+                    <app name="com.netease.hyxd.huawei" foreground="true" grade="1" ps="1"></app>
+                    <app name="com.tencent.tmgp.cf" foreground="true" grade="1" ps="1"></app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <speedcontrol>1</speedcontrol>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                        <fastSync>0</fastSync>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+    </region_config>
+</xengine>

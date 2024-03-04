@@ -1,0 +1,62 @@
+{
+    "version": "1.0.0",
+    "uid_name": "rebootsys",
+    "rebootsys": {
+        "VmReboot": [
+            {
+                "rule_prio":0,
+                "featureid":"690100000",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_process",
+                    "F1NAME": "MainCallTrace.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "MainCallTrace.s_f3",
+                    "SIGMSG": "BasicParam.s_sigmsg",
+                    "SYSVMTYPE": "BasicParam.s_sysvmtype"
+                }
+            }
+        ],
+        "VmWatchdog": [
+            {
+                "rule_prio":0,
+                "featureid":"690100001",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_block_reason",
+                    "SYSVMTYPE": "BasicParam.s_sysvmtype",
+                    "F1NAME": "MainCallTrace.s_f1",
+                    "F2NAME": "BlockStack.s_f2",
+                    "F3NAME": "BlockStack.s_f3",
+                    "BTHREAD1NAME": "BinderThread.s_binder"
+                }
+            }
+        ],
+        "Panic": [
+            {
+                "rule_prio":0,
+                "featureid":"690100002,690100003",
+                "EventInfoParam":{
+                    "PNAME": "BasicParam.s_pname",
+                    "CPUFREQ": "BasicParam.s_cpu_freq",
+                    "AVSPARAM": "BasicParam.s_avs_param",
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "MainCallTrace.s_f2",
+                    "F3NAME": "BasicParam.s_cause"
+                }
+            }
+        ],
+        "ModemReboot": [
+            {
+                "rule_prio":0,
+                "featureid":"690100200",
+                "EventInfoParam":{
+                    "F1NAME": "BasicParam.s_f1",
+                    "F2NAME": "BasicParam.s_f2",
+                    "F3NAME": "BasicParam.s_f3"
+                }
+            }
+        ],
+        "HwWatchdog": {},
+        "HardwareFault": {},
+        "Lpm3Exception": {}
+    }
+}

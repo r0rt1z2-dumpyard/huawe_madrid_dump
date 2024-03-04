@@ -1,0 +1,19 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+
+
+on property:ro.boot.product.hardware.sku=MRD-L21A
+    setprop ro.odm.config.disable_fp true

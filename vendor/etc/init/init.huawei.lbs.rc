@@ -1,0 +1,11 @@
+    chmod 777 /vendor/bin/fusion_daemon
+
+# for LBS
+service fusd /vendor/bin/fusion_daemon
+    class late_start
+    user system
+    group system root wakelock
+	
+# for LBS
+on property:service.lbs.start=1
+    start fusd

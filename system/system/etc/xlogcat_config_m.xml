@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <xlogcat name="kmsglogcat">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="25"/>
+        <writeMode value="mmap"/>
+        <xlogcatGroup>
+            <logStyle value="monitor_node"/>
+            <inputNodeSet>
+                <dataPath value="/proc/kmsg"/>
+            </inputNodeSet>
+            <outputFilePath value="/data/log/android_logs/kmsgcat-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="kmsglogcat-r">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="10"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="monitor_node"/>
+            <inputNodeSet>
+                <dataPath value="/proc/kmsg"/>
+            </inputNodeSet>
+            <outputFilePath value="/log/kmsg/kmsg_log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="kmsgcat_cp">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="25"/>
+        <writeMode value="mmap"/>
+        <xlogcatGroup>
+            <logStyle value="monitor_node" failureRetry="10"/>
+            <inputNodeSet>
+                <dataPath value="/dev/cshell_log"/>
+            </inputNodeSet>
+            <outputFilePath value="/data/hwzd_logs/cp_log/modemlog/modemkmsg-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="chargelogcat">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="20"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="poll_node" interval="5"/>
+            <inputNodeSet>
+                <dataPath value="DateTime"/>
+                <title value="Time"/>
+                <width value="23"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/coul/coul_data/gaugelog"/>
+                <titlePath value="/sys/class/hw_power/coul/coul_data/gaugelog_head"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/charger/charge_data/chargelog"/>
+                <titlePath value="/sys/class/hw_power/charger/charge_data/chargelog_head"/>
+            </inputNodeSet>
+            <outputFilePath value="/data/log/charge-log/charge-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="chargelogcat-r">
+        <logRotateSizeKBytes value="2048"/>
+        <maxCompressdFiles value="10"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="poll_node" interval="5"/>
+            <inputNodeSet>
+                <dataPath value="DateTime"/>
+                <title value="Time"/>
+                <width value="23"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/coul/coul_data/gaugelog"/>
+                <titlePath value="/sys/class/hw_power/coul/coul_data/gaugelog_head"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/charger/charge_data/chargelog"/>
+                <titlePath value="/sys/class/hw_power/charger/charge_data/chargelog_head"/>
+            </inputNodeSet>
+            <outputFilePath value="/log/charge-log/charge-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="chargelogcat-c">
+        <logRotateSizeKBytes value="512"/>
+        <maxCompressdFiles value="10"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="poll_node" interval="5"/>
+            <inputNodeSet>
+                <dataPath value="DateTime"/>
+                <title value="Time"/>
+                <width value="23"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/coul/coul_data/gaugelog"/>
+                <titlePath value="/sys/class/hw_power/coul/coul_data/gaugelog_head"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/charger/charge_data/chargelog"/>
+                <titlePath value="/sys/class/hw_power/charger/charge_data/chargelog_head"/>
+            </inputNodeSet>
+            <outputFilePath value="/splash2/charge_monitor/charge_logs/charge-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="chargelogcat-b">
+        <logRotateSizeKBytes value="4096"/>
+        <maxCompressdFiles value="10"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="poll_node" interval="5"/>
+            <inputNodeSet>
+                <dataPath value="DateTime"/>
+                <title value="Time"/>
+                <width value="23"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/coul/coul_data/gaugelog"/>
+                <titlePath value="/sys/class/hw_power/coul/coul_data/gaugelog_head"/>
+            </inputNodeSet>
+            <inputNodeSet>
+                <dataPath value="/sys/class/hw_power/charger/charge_data/chargelog"/>
+                <titlePath value="/sys/class/hw_power/charger/charge_data/chargelog_head"/>
+            </inputNodeSet>
+            <outputFilePath value="/data/log/charge_monitor/charge_logs/charge-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+    <xlogcat name="inputlogcat">
+        <logRotateSizeKBytes value="1024"/>
+        <maxCompressdFiles value="25"/>
+        <writeMode value="factory"/>
+        <xlogcatGroup>
+            <logStyle value="monitor_dir"/>
+            <inputDirSet>
+                <inputDirPath value="/dev/input"/>
+                <pickNode value="huawei,touchscreen"/>
+                <pickNode value="cyttsp5_mt"/>
+                <pickNode value="huawei,ts_kit"/>
+                <pickNode value="huawei,ts_pen"/>
+                <pickNode value="ps_input"/>
+                <pickNode value="hall_input"/>
+                <pickNode value="Goodix"/>
+                <pickNode value="synaptics"/>
+                <pickNode value="cyttsp"/>
+                <pickNode value="ms-msg21xx"/>
+                <pickNode value="ft6x06_i2c_adapter"/>
+                <pickNode value="proximity"/>
+                <pickNode value="qpnp_pon"/>
+                <pickNode value="gpio-keys"/>
+                <pickNode value="touch_key"/>
+                <pickNode value="input_mt_wrapper"/>
+            </inputDirSet>
+            <outputFilePath value="/data/log/input-log/input-log"/>
+        </xlogcatGroup>
+    </xlogcat>
+</config>

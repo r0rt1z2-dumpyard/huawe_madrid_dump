@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+    <release>
+        <EMUI emui_version="9.0" config_version="0"/>
+        <config>
+            <platform>
+                <interop_addr>
+                    <!--INTEROP_DISABLE_ABSOLUTE_VOLUME-->
+                        00:9E:C8,2;           <!--DTS2017082912670 小米蓝牙音箱-->
+                </interop_addr>
+                <interop_name>
+                    <!--INTEROP_DISABLE_ABSOLUTE_VOLUME-->
+                        Bose AE2w 01.02.00,1,2;
+                        Sony MBH20,1,2;         <!--DTS2017082912670-->
+                        Jabra SPORT+ v5.7.2,1,2;<!--DTS2017082912670-->
+                        FIIL Diva pro,1,2;      <!--DTS2017082912670-->
+                        AKG Y45BT,1,2;          <!--DTS2017082912670-->
+                        HUAWEI  AM04S,1,2;      <!--DTS2017082912670-->
+                        BH03,1,2;               <!--DTS2017082912670-->
+                        SYLLALBE3 D700,1,2;     <!--DTS2017082912670-->
+                        Beoplay H5,1,2;         <!--DTS2017082912670-->
+                        VoiceClip 3100,1,2;     <!--DTS2017082912670-->
+                        MOMENTUM M2 AEBT,1,2;   <!--DTS2017082912670-->
+                        JBL E45BT,1,2;          <!--DTS2017082912670-->
+                        JBL Reflect Mini BT,1,2;<!--DTS2017082912670-->
+                        Pioneer APS-BA501W,1,2; <!--DTS2017091107398-->
+                    <!--INTEROP_SET_ROLE_MASTER_FOR_INCOMING_CONNECTION-->
+                        honor AM07C,1,110;
+                    <!--INTEROP_HISI_SET_ROLE_SLAVE_FOR_INCOMING_CONNECTION-->
+                        Honda HFT,1,112;        <!--DTS2017090510851-->
+                    <!--INTEROP_DELAY_AVDT_SND_SUSPEND_CMD-->
+                        JBL Everest 100,1,118;   <!--DTS2017101212101-->
+                    <!--INTEROP_AVRCP_SUPPROT_1_4-->
+                        Santa Fe Sport,1,119;   <!--DTS2017090707749-->
+                    <!--INTEROP_AVDT_SKIP_PEER_DISCOVERY-->
+                        小米运动蓝牙耳机,1,133;   <!--DTS2017090707749-->
+                        QCY-QY19,1,133;           <!--DTS2017090707749-->
+                        QCY-QY12 Pro,1,133;       <!--DTS2017090707749-->
+                </interop_name>
+                <interop_manufacture>
+                </interop_manufacture>
+            </platform>
+        </config>
+    </release>
+    <debug>
+    </debug>
+</databases>

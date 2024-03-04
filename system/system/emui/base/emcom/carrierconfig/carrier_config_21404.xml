@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!--Google Message config end -->
+        <!-- DTS2018040908460 lwx534350 2018/5/4 begin -->
+        <int name="allow_mms_property_int" value="4"/>
+        <!-- DTS2018040908460 lwx534350 2018/5/4 end -->
+    </carrier_config>
+</carrier_config_list>

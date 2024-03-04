@@ -1,0 +1,92 @@
+# 2018-06-14 18:50:20.0
+ro.cofig.onlinemusic.enabled=false
+# 2018-12-10 11:26:10.0
+ro.com.google.acsa=true
+# 2018-06-14 18:50:20.0
+ro.config.attach_apn_enabled=true
+# 2018-12-29 15:21:18.0
+ro.config.cota_live_update=true
+# 2018-06-14 18:50:20.0
+ro.config.default_sms_app=com.google.android.apps.messaging
+# 2018-10-25 10:28:53.0
+ro.config.delay_setapn=true
+# 2019-09-20 15:14:54.0
+ro.config.dnscure_ipcfg=8.8.8.8;208.67.222.222|10.8.2.1;10.8.2.2
+# 2018-06-14 18:50:20.0
+ro.config.hw_agps_adpt_sim=true
+# 2018-07-24 19:43:47.0
+ro.config.hw_allow_rs_mms=true
+# 2018-06-28 11:47:11.0
+ro.config.hw_always_allow_mms=0
+# 2018-07-11 18:30:28.0
+ro.config.hw_custverdisplay=true
+# 2018-06-14 18:50:20.0
+ro.config.hw_ecc_with_sim_card=true
+# 2018-06-14 18:50:20.0
+ro.config.hw_globalEcc=true
+# 2018-06-25 10:20:29.0
+ro.config.hw_hideSimIcon=false
+# 2018-06-14 18:50:20.0
+ro.config.hw_icon_supprot_cut=false
+# 2018-06-21 10:26:19.0
+ro.config.hw_imei_sv_enable=true
+# 2018-06-21 10:26:19.0
+ro.config.hw_imei_sv_show_two=true
+# 2018-06-14 18:50:20.0
+ro.config.hw_multiscreen=false
+# 2018-06-14 18:50:20.0
+ro.config.hw_nfc_on=true
+# 2018-09-10 10:49:03.0
+ro.config.hw_omacp=1
+# 2018-07-09 16:56:37.0
+ro.config.hw_optb=999
+# 2018-06-14 18:50:20.0
+ro.config.hw_showSimName=true
+# 2018-06-14 18:50:20.0
+ro.config.hw_show_mmiError=true
+# 2018-06-14 18:50:20.0
+ro.config.hw_support_vm_ecc=true
+# 2018-07-18 09:16:53.0
+ro.config.hw_updateCotaPara=true
+# 2018-07-09 16:57:07.0
+ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_%s_UAProfile.xml
+# 2018-06-14 18:50:20.0
+ro.config.hw_voicemail_sim=true
+# 2018-06-21 16:35:42.0
+ro.config.keyguard_unusedata=true
+# 2018-06-22 14:31:13.0
+ro.config.music_region=normal
+# 2018-06-14 18:50:20.0
+ro.config.plmn_to_settings=true
+# 2018-09-10 10:49:03.0
+ro.config.show_always_mms_ui=true
+# 2018-06-14 18:50:20.0
+ro.config.show_epg_menu=false
+# 2018-06-21 16:35:53.0
+ro.config.show_full_month=true
+# 2018-06-14 18:50:20.0
+ro.config.show_vmail_number=true
+# 2018-06-14 18:50:20.0
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+# 2018-12-19 10:03:36.0
+ro.config.support_iseapp=true
+# 2018-06-19 16:10:00.0
+ro.config.support_privacyspace=true
+# 2018-06-21 15:44:48.0
+ro.config.vm_prioritymode=2
+# 2018-06-14 18:50:20.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2018-11-06 09:27:14.0
+ro.hw.ipv6opt=true
+# 2018-11-06 09:27:14.0
+ro.hw.ipv6timeout=1900
+# 2018-06-14 18:50:20.0
+ro.odm.config.hw.imeisv=true
+# 2018-06-14 18:50:20.0
+ro.product.locale.language=en
+# 2018-06-14 18:50:20.0
+ro.product.locale.region=US
+# 2018-06-14 18:50:20.0
+ro.setupwizard.mode=OPTIONAL
+# 2018-06-14 18:50:20.0
+ro.setupwizard.wifi_on_exit=false
